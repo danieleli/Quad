@@ -10,8 +10,11 @@
 		"type" : "git",
 		"url"  : "https://github.com/danieleli/Quad.git"
 	},
+    "dependencies": {
+        "oauth": ">=0.9.8"
+    },
 	"devDependencies" : {
-		"vows" : "0.5.x"
+		"vows" : ">=0.6.x"
 	},
 	"keywords"        : [
 		"web",
@@ -19,6 +22,9 @@
 		"backbone",
 		"payments"
 	],
-	"author"          : "dan@softwaresingularity.com",
+    "author": {
+        "name": "Dan Schlossberg",
+        "email": "dan@softwaresingularity.com"
+    },
 	"license"         : "BSD"
 }

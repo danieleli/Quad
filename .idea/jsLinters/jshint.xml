@@ -5,7 +5,6 @@
     <option curly="true" />
     <option noarg="true" />
     <option forin="true" />
-    <option strict="true" />
     <option noempty="true" />
     <option undef="true" />
     <option eqeqeq="true" />

@@ -14,8 +14,9 @@
         "oauth": ">=0.9.8"
     },
 	"devDependencies" : {
-		"vows" : ">=0.6.x"
-	},
+		"vows" : ">=0.6.x",
+        "nodeunit" : ">=0.7.4"
+},
 	"keywords"        : [
 		"web",
 		"api",

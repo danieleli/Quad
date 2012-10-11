@@ -1,54 +1,65 @@
-var $ = require('jquery'),
-  Backbone = require('backbone'),
-  vows = require('vows'),
-  assert = require('assert'),
-  twitter = require('../../lib/poc/twitter');
+//var requirejs = require( 'requirejs' );
+//requirejs.config( {
+//    nodeRequire: require
+//} );
 
-Backbone.setDomLibrary($);
+var $ = require( 'jquery' ),
+
+    Backbone = require( 'backbone' ),
+    vows = require( 'vows' ),
+    assert = require( 'assert' );
+var twitter = require( '../../lib/poc/twitter' );
+
+
+Backbone.setDomLibrary( $ );
+$.ajaxPrefilter( function ( options, originalOptions, jqXHR ) {
+    console.log( 'prefilter' );
+} );
+
+
 var tweets = new twitter.Tweets();
 
 var jqXHR;
-var suite = vows.describe('twitter models')
+var suite = vows.describe( 'twitter models' )
 
-  .addBatch({
-    'Tweet model' : {
-      topic                       : function () {
-        return new twitter.Tweet({name : "some bs"});
-      },
-      'is defined'                : function (topic) {
-        assert.isDefined(twitter);
-        assert.notEqual(twitter, undefined);
-        assert.notEqual(twitter.Tweet, undefined);
-        assert.notEqual(topic, null);
-      },
-      'is a function'             : function (topic) {
-        assert.isFunction(twitter.Tweet);
-      },
-      'is returns default values' : function (topic) {
-        assert.equal(topic.get('content'), "default");
-      },
+    .addBatch( {
+        'Tweet model': {
+            topic                      : function () {
+                return new twitter.Tweet( {name: "some bs"} );
+            },
+            'is defined'               : function ( topic ) {
+                assert.isDefined( twitter );
+                assert.notEqual( twitter, undefined );
+                assert.notEqual( twitter.Tweet, undefined );
+                assert.notEqual( topic, null );
+            },
+            'is a function'            : function ( topic ) {
+                assert.isFunction( twitter.Tweet );
+            },
+            'is returns default values': function ( topic ) {
+                assert.equal( topic.get( 'content' ), "default" );
+            },
 
-      'is returns default newly initialized values' : function (topic) {
-        assert.equal(topic.get('name'), "some bs");
-      }
-    }})
+            'is returns default newly initialized values': function ( topic ) {
+                assert.equal( topic.get( 'name' ), "some bs" );
+            }
+        }} )
 
-  .addBatch({
-    'Tweets collection' : {
-      topic : function () {
-        jqXHR = tweets.fetch({success : this.callback});
-        //console.log('jqXHR:' + jqXHR);
-      },
+    .addBatch( {
+        'Tweets collection': {
+            topic: function () {
+                jqXHR = tweets.fetch( {success: this.callback} );
+                //console.log('jqXHR:' + jqXHR);
+            },
 
-      'can fetch tweets' : function (collection, response, x) {
-        console.log('response: ' + response);
-        console.log('collection: ' + collection);
-        console.log('tweets: ' + tweets.length);
+            'can fetch tweets': function ( collection, response, x ) {
+                console.log( 'response: ' + response );
+                console.log( 'collection: ' + collection );
+                console.log( 'tweets: ' + tweets.length );
 
-        tweets.each(function (item, index, array) {
-          console.log("tweet: " + JSON.stringify(item));
-        });
-      }
-    }})
+                tweets.each( function ( item, index, array ) {
+                    console.log( "tweet: " + JSON.stringify( item ) );
+                } );
+            }
+        }} ).run();
 
-  .run();

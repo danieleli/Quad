@@ -90,3 +90,15 @@ var sampleGoogleResponse = { version: '1.0',
             [Object],
             [Object]
         ] } };
+
+
+exports.RequestHeaders = {
+    Authorization   : 'OAuth oauth_consumer_key="anonymous",oauth_nonce="ZHZHg8GLGCe9ODnx76kY6H4t4CsGuS3O",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1350075736",oauth_token="1%2FSt9uNzaoD3WOITQPLpCQaz31L7y9hCP9iZfIe1gWfXI",oauth_version="",oauth_signature="RdC66ognyBClWdkq7Aq8GEWtEUg%3D"',
+    Host            : 'www.google.com',
+    Accept          : '*/*',
+    Connection      : 'close',
+    'User-Agent'    : 'Node authentication',
+    'GData-Version' : '3.0',
+    'Content-length': 0,
+    'Content-Type'  : 'application/x-www-form-urlencoded'
+};

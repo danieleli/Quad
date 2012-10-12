@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="" />
+    <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_backbone_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/test.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/mockSessionState.js" afterPath="$PROJECT_DIR$/test/poc/backbone_oauth_google/config_and_sample_data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/poc_oauth_server_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/poc_oauth_server_js.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/rick.js" afterPath="$PROJECT_DIR$/test/poc/backbone_oauth_google/rick.js" />
+    </list>
     <ignored path="Quad.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +27,121 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="oauth.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="387" column="0" selection-start="14205" selection-end="14205" vertical-scroll-proportion="0.9802905">
+              <folding>
+                <element signature="e#397#1443#0" expanded="false" />
+                <element signature="e#667#716#0" expanded="false" />
+                <element signature="e#726#788#0" expanded="false" />
+                <element signature="e#866#952#0" expanded="false" />
+                <element signature="e#1074#1219#0" expanded="false" />
+                <element signature="e#1275#1399#0" expanded="false" />
+                <element signature="e#1590#2297#0" expanded="false" />
+                <element signature="e#1899#1986#0" expanded="false" />
+                <element signature="e#2108#2253#0" expanded="false" />
+                <element signature="e#2407#2466#0" expanded="false" />
+                <element signature="e#2528#2978#0" expanded="false" />
+                <element signature="e#2576#2601#0" expanded="false" />
+                <element signature="e#2611#2976#0" expanded="false" />
+                <element signature="e#3040#3173#0" expanded="false" />
+                <element signature="e#3070#3128#0" expanded="false" />
+                <element signature="e#3265#3410#0" expanded="false" />
+                <element signature="e#3710#3762#0" expanded="false" />
+                <element signature="e#4078#4229#0" expanded="false" />
+                <element signature="e#4160#4188#0" expanded="false" />
+                <element signature="e#4198#4227#0" expanded="false" />
+                <element signature="e#5105#5183#0" expanded="false" />
+                <element signature="e#5291#5718#0" expanded="false" />
+                <element signature="e#5359#5689#0" expanded="false" />
+                <element signature="e#5439#5592#0" expanded="false" />
+                <element signature="e#5494#5582#0" expanded="false" />
+                <element signature="e#5606#5683#0" expanded="false" />
+                <element signature="e#5866#6131#0" expanded="false" />
+                <element signature="e#5944#6098#0" expanded="false" />
+                <element signature="e#5974#6026#0" expanded="false" />
+                <element signature="e#6040#6092#0" expanded="false" />
+                <element signature="e#6206#6932#0" expanded="false" />
+                <element signature="e#6371#6524#0" expanded="false" />
+                <element signature="e#6752#6913#0" expanded="false" />
+                <element signature="e#7018#7191#0" expanded="false" />
+                <element signature="e#7276#7868#0" expanded="false" />
+                <element signature="e#7315#7352#0" expanded="false" />
+                <element signature="e#7362#7424#0" expanded="false" />
+                <element signature="e#7589#7616#0" expanded="false" />
+                <element signature="e#7626#7849#0" expanded="false" />
+                <element signature="e#7655#7762#0" expanded="false" />
+                <element signature="e#7776#7843#0" expanded="false" />
+                <element signature="e#8295#8601#0" expanded="false" />
+                <element signature="e#8456#8569#0" expanded="false" />
+                <element signature="e#9774#9903#0" expanded="false" />
+                <element signature="e#9820#9893#0" expanded="false" />
+                <element signature="e#9985#10554#0" expanded="false" />
+                <element signature="e#10128#10544#0" expanded="false" />
+                <element signature="e#10228#10455#0" expanded="false" />
+                <element signature="e#10335#10437#0" expanded="false" />
+                <element signature="e#10461#10530#0" expanded="false" />
+                <element signature="e#11294#11760#0" expanded="false" />
+                <element signature="e#11350#11436#0" expanded="false" />
+                <element signature="e#11450#11515#0" expanded="false" />
+                <element signature="e#11599#11730#0" expanded="false" />
+                <element signature="e#11655#11720#0" expanded="false" />
+                <element signature="e#11867#12129#0" expanded="false" />
+                <element signature="e#11988#12123#0" expanded="false" />
+                <element signature="e#12056#12113#0" expanded="false" />
+                <element signature="e#12225#12434#0" expanded="false" />
+                <element signature="e#12328#12402#0" expanded="false" />
+                <element signature="e#12504#12809#0" expanded="false" />
+                <element signature="e#12644#12718#0" expanded="false" />
+                <element signature="e#12732#12782#0" expanded="false" />
+                <element signature="e#14256#15175#0" expanded="false" />
+                <element signature="e#14293#15165#0" expanded="false" />
+                <element signature="e#14414#14488#0" expanded="false" />
+                <element signature="e#14630#15013#0" expanded="false" />
+                <element signature="e#15035#15151#0" expanded="false" />
+                <element signature="e#15231#15623#0" expanded="false" />
+                <element signature="e#15482#15610#0" expanded="false" />
+                <element signature="e#15523#15596#0" expanded="false" />
+                <element signature="e#15674#15748#0" expanded="false" />
+                <element signature="e#15846#15897#0" expanded="false" />
+                <element signature="e#16031#16082#0" expanded="false" />
+                <element signature="e#16193#16586#0" expanded="false" />
+                <element signature="e#16341#16542#0" expanded="false" />
+                <element signature="e#16395#16472#0" expanded="false" />
+                <element signature="e#16478#16536#0" expanded="false" />
+                <element signature="e#16706#17600#0" expanded="false" />
+                <element signature="e#16781#16823#0" expanded="false" />
+                <element signature="e#16829#16889#0" expanded="false" />
+                <element signature="e#17084#17596#0" expanded="false" />
+                <element signature="e#17111#17161#0" expanded="false" />
+                <element signature="e#17179#17586#0" expanded="false" />
+                <element signature="e#17935#18053#0" expanded="false" />
+                <element signature="e#18145#18260#0" expanded="false" />
+                <element signature="e#18401#18884#0" expanded="false" />
+                <element signature="e#18482#18561#0" expanded="false" />
+                <element signature="e#18602#18733#0" expanded="false" />
+                <element signature="e#19011#19129#0" expanded="false" />
+                <element signature="e#19256#19375#0" expanded="false" />
+                <element signature="e#19377#20174#0" expanded="false" />
+                <element signature="e#20257#21177#0" expanded="false" />
+                <element signature="e#20303#20368#0" expanded="false" />
+                <element signature="e#20439#20512#0" expanded="false" />
+                <element signature="e#20687#21172#0" expanded="false" />
+                <element signature="e#20714#20764#0" expanded="false" />
+                <element signature="e#20782#21162#0" expanded="false" />
+                <element signature="e#21271#21823#0" expanded="false" />
+                <element signature="e#21306#21341#0" expanded="false" />
+                <element signature="e#21571#21678#0" expanded="false" />
+                <element signature="e#21921#22163#0" expanded="false" />
+                <element signature="e#21955#21990#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -32,9 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/poc/twitter.js" />
-        <option value="$PROJECT_DIR$/test/poc/twitter_spec.js" />
-        <option value="$PROJECT_DIR$/lib/poc/oauth/views/login.ejs" />
         <option value="$PROJECT_DIR$/views/google_contacts.ejs" />
         <option value="$PROJECT_DIR$/lib/poc/oauth/views/google_contacts.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -44,9 +163,12 @@
         <option value="$PROJECT_DIR$/lib/poc/oauth/session.json" />
         <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/mockSessionState.json" />
         <option value="$PROJECT_DIR$/lib/poc/oauth/backbone_oauth_google.js" />
-        <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/mockSessionState.js" />
-        <option value="$PROJECT_DIR$/node_modules/oauth/lib/oauth.js" />
         <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/contactModels.js" />
+        <option value="$PROJECT_DIR$/node_modules/oauth/lib/oauth.js" />
+        <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/mockSessionState.js" />
+        <option value="$PROJECT_DIR$/test/examples/vows_sample1.js" />
+        <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/rick.js" />
+        <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/getContactsWithOAuthLib.js" />
         <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/test.js" />
       </list>
     </option>
@@ -150,105 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone_oauth_google" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,12 +283,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/poc/backbone_oauth_google/test.js" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/poc/backbone_oauth_google/test.js" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -291,7 +316,7 @@
       <recent name="$PROJECT_DIR$/test/examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Nodeunit.google contacts">
+  <component name="RunManager" selected="Nodeunit.NodeUnit">
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="/usr/local/bin/node" />
       <envs />
@@ -404,7 +429,11 @@
       <created>1350072606367</created>
       <updated>1350072606367</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test for rick">
+      <created>1350077396670</created>
+      <updated>1350077396670</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -414,10 +443,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2223095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983872" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15295887" sideWeight="0.7776905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544634" sideWeight="0.7776905" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31736058" sideWeight="0.9919759" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -426,6 +454,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983872" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -466,7 +495,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="update oauth test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test for rick" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -488,34 +517,14 @@
     <MESSAGE value="displaying list of google contacts with full oauth walk through.  (sample node-oauth app) Next up: using backbone to fetch those contacts with oauth intact." />
     <MESSAGE value="unit test stub for backbone_oauth_google" />
     <MESSAGE value="update oauth test" />
+    <MESSAGE value="test for rick" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1311" column="0" selection-start="35758" selection-end="35758" vertical-scroll-proportion="-1.9258621" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/shopnode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1823" selection-end="1823" vertical-scroll-proportion="-0.2">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/_utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -561,16 +570,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/foo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/poc/oauth/server.js">
@@ -596,32 +601,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/contactModels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="15" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.80717486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/poc/twitter_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="15" selection-start="298" selection-end="298" vertical-scroll-proportion="0.29147983">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="15" selection-start="298" selection-end="298" vertical-scroll-proportion="0.29147983" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/test.js">
+    <entry file="file://$PROJECT_DIR$/lib/poc/twitter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="50" selection-start="2094" selection-end="2094" vertical-scroll-proportion="1.0889679">
+        <state line="24" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.42704627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/examples/vows_sample1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.21784233">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/mockSessionState.js">
+    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/contactModels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="8" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="37" column="10" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.57572615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/rick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.21784233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/oauth/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.40456432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/config_and_sample_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="40" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.44164038">
           <folding>
             <element signature="e#2173#2205#0" expanded="true" />
             <element signature="e#2330#2472#0" expanded="true" />
@@ -631,16 +658,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/examples/vows_sample1.js">
+    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_backbone_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.24911033">
+        <state line="57" column="0" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.88692945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="307" column="41" selection-start="10952" selection-end="10952" vertical-scroll-proportion="2.188612">
+        <state line="387" column="0" selection-start="14205" selection-end="14205" vertical-scroll-proportion="0.9802905">
           <folding>
             <element signature="e#397#1443#0" expanded="false" />
             <element signature="e#667#716#0" expanded="false" />
@@ -705,55 +732,47 @@
             <element signature="e#12504#12809#0" expanded="false" />
             <element signature="e#12644#12718#0" expanded="false" />
             <element signature="e#12732#12782#0" expanded="false" />
-            <element signature="e#14230#15149#0" expanded="false" />
-            <element signature="e#14267#15139#0" expanded="false" />
-            <element signature="e#14388#14462#0" expanded="false" />
-            <element signature="e#14604#14987#0" expanded="false" />
-            <element signature="e#15009#15125#0" expanded="false" />
-            <element signature="e#15205#15597#0" expanded="false" />
-            <element signature="e#15456#15584#0" expanded="false" />
-            <element signature="e#15497#15570#0" expanded="false" />
-            <element signature="e#15648#15722#0" expanded="false" />
-            <element signature="e#15820#15871#0" expanded="false" />
-            <element signature="e#16005#16056#0" expanded="false" />
-            <element signature="e#16167#16560#0" expanded="false" />
-            <element signature="e#16315#16516#0" expanded="false" />
-            <element signature="e#16369#16446#0" expanded="false" />
-            <element signature="e#16452#16510#0" expanded="false" />
-            <element signature="e#16680#17574#0" expanded="false" />
-            <element signature="e#16755#16797#0" expanded="false" />
-            <element signature="e#16803#16863#0" expanded="false" />
-            <element signature="e#17058#17570#0" expanded="false" />
-            <element signature="e#17085#17135#0" expanded="false" />
-            <element signature="e#17153#17560#0" expanded="false" />
-            <element signature="e#17705#17814#0" expanded="false" />
-            <element signature="e#17909#18027#0" expanded="false" />
-            <element signature="e#18119#18234#0" expanded="false" />
-            <element signature="e#18375#18858#0" expanded="false" />
-            <element signature="e#18456#18535#0" expanded="false" />
-            <element signature="e#18576#18707#0" expanded="false" />
-            <element signature="e#18985#19103#0" expanded="false" />
-            <element signature="e#19230#19349#0" expanded="false" />
-            <element signature="e#19351#20148#0" expanded="false" />
-            <element signature="e#20231#21151#0" expanded="false" />
-            <element signature="e#20277#20342#0" expanded="false" />
-            <element signature="e#20413#20486#0" expanded="false" />
-            <element signature="e#20661#21146#0" expanded="false" />
-            <element signature="e#20688#20738#0" expanded="false" />
-            <element signature="e#20756#21136#0" expanded="false" />
-            <element signature="e#21245#21797#0" expanded="false" />
-            <element signature="e#21280#21315#0" expanded="false" />
-            <element signature="e#21545#21652#0" expanded="false" />
-            <element signature="e#21895#22137#0" expanded="false" />
-            <element signature="e#21929#21964#0" expanded="false" />
+            <element signature="e#14256#15175#0" expanded="false" />
+            <element signature="e#14293#15165#0" expanded="false" />
+            <element signature="e#14414#14488#0" expanded="false" />
+            <element signature="e#14630#15013#0" expanded="false" />
+            <element signature="e#15035#15151#0" expanded="false" />
+            <element signature="e#15231#15623#0" expanded="false" />
+            <element signature="e#15482#15610#0" expanded="false" />
+            <element signature="e#15523#15596#0" expanded="false" />
+            <element signature="e#15674#15748#0" expanded="false" />
+            <element signature="e#15846#15897#0" expanded="false" />
+            <element signature="e#16031#16082#0" expanded="false" />
+            <element signature="e#16193#16586#0" expanded="false" />
+            <element signature="e#16341#16542#0" expanded="false" />
+            <element signature="e#16395#16472#0" expanded="false" />
+            <element signature="e#16478#16536#0" expanded="false" />
+            <element signature="e#16706#17600#0" expanded="false" />
+            <element signature="e#16781#16823#0" expanded="false" />
+            <element signature="e#16829#16889#0" expanded="false" />
+            <element signature="e#17084#17596#0" expanded="false" />
+            <element signature="e#17111#17161#0" expanded="false" />
+            <element signature="e#17179#17586#0" expanded="false" />
+            <element signature="e#17935#18053#0" expanded="false" />
+            <element signature="e#18145#18260#0" expanded="false" />
+            <element signature="e#18401#18884#0" expanded="false" />
+            <element signature="e#18482#18561#0" expanded="false" />
+            <element signature="e#18602#18733#0" expanded="false" />
+            <element signature="e#19011#19129#0" expanded="false" />
+            <element signature="e#19256#19375#0" expanded="false" />
+            <element signature="e#19377#20174#0" expanded="false" />
+            <element signature="e#20257#21177#0" expanded="false" />
+            <element signature="e#20303#20368#0" expanded="false" />
+            <element signature="e#20439#20512#0" expanded="false" />
+            <element signature="e#20687#21172#0" expanded="false" />
+            <element signature="e#20714#20764#0" expanded="false" />
+            <element signature="e#20782#21162#0" expanded="false" />
+            <element signature="e#21271#21823#0" expanded="false" />
+            <element signature="e#21306#21341#0" expanded="false" />
+            <element signature="e#21571#21678#0" expanded="false" />
+            <element signature="e#21921#22163#0" expanded="false" />
+            <element signature="e#21955#21990#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/twitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.42704627">
-          <folding />
         </state>
       </provider>
     </entry>

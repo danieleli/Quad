@@ -7,20 +7,6 @@ var OAuth = require( 'oauth' ).OAuth,
     vows = require( 'vows' );
 
 
-Backbone.setDomLibrary( $ );
-
-$.ajaxPrefilter( function ( options, originalOptions, jqXHR ) {
-        console.log( '---------------prefilter------------------' );
-        console.log( "options: " + JSON.stringify( options ) );
-        console.log( '---------------' );
-        console.log( "originalOptions: " + JSON.stringify( originalOptions ) );
-        console.log( '---------------' );
-        console.log( "jqXHR : " + JSON.stringify( jqXHR ) );
-        jqXHR.setRequestHeader( "TEST", ".net rocks!" );
-    }
-);
-
-
 var oa = new OAuth(
     "", // mockState.OA._requestUrl,
     "", // mockState.OA._accessUrl,
@@ -30,10 +16,6 @@ var oa = new OAuth(
     "", //mockState.OA._authorize_callback,
     mockState.OA._signatureMethod
 );
-
-// Example using GData API v3
-// GData Specific Header
-oa._headers['GData-Version'] = '3.0';
 
 vows.describe( 'Contacts without backbone' ).addBatch( {
     'Fetch': {
@@ -54,18 +36,9 @@ vows.describe( 'Contacts without backbone' ).addBatch( {
                     }
                 }
             );
-            return 42;
         },
         'populates self ': function ( topic ) {
-
             console.log( "Ricks test" );
         }
     }
 } ).run();
-
-
-
-
-
-
-

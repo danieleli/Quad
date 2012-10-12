@@ -31,41 +31,27 @@ var oa = new OAuth(
     mockState.OA._signatureMethod
 );
 
-// Example using GData API v3
-// GData Specific Header
 oa._headers['GData-Version'] = '3.0';
 
-vows.describe( 'Contacts without backbone' ).addBatch( {
+var contacts = new Contacts.Contacts();
+
+vows.describe( 'Contacts' ).addBatch( {
     'Fetch': {
         topic            : function () {
-            oa.getProtectedResource(
-                "https://www.google.com/m8/feeds/contacts/default/full?alt=json",
-                "GET",
-                mockState.OAuth.oauth_access_token,
-                mockState.OAuth.oauth_access_token_secret,
-                function ( error, data, response ) {
-                    var feed = JSON.parse( data );
-                    var entries = feed.feed.entry;
-
-                    // loop through and log entries
-                    for ( var x = 0; x <= entries.length; x++ ) {
-                        console.log( entries[x] );
-                        console.log( '---------------------------------------------------' );
-                    }
+            contacts.fetch(
+                {
+                    success: this.callback,
+                    error  : this.callback
                 }
             );
-            return 42;
         },
-        'populates self ': function ( topic ) {
+        'populates self ': function ( collection, response, x ) {
 
-            console.log( "Ricks test" );
+            console.log( JSON.stringify( collection ) + " " );
+            console.log( "response=" + response );
+            console.log( "vows atest" );
+            assert.equal( response.status, 200 );
         }
     }
 } ).run();
-
-
-
-
-
-
 

@@ -2,19 +2,19 @@ var OAuth = require( 'oauth' ).OAuth,
     $ = require( 'jquery' ),
     Backbone = require( 'backbone' ),
     Contacts = require( './contactModels' ),
-    mockState = require( './config_and_sample_data' ),
+    config = require( './config_and_sample_data' ),
     assert = require( 'assert' ),
     vows = require( 'vows' );
 
 
 var oa = new OAuth(
-    "", // mockState.OA._requestUrl,
-    "", // mockState.OA._accessUrl,
-    mockState.OA._consumerKey,
-    mockState.OA._consumerSecret,
-    "", //mockState.OA._version,
-    "", //mockState.OA._authorize_callback,
-    mockState.OA._signatureMethod
+    "", // config.OA._requestUrl,
+    "", // config.OA._accessUrl,
+    config.OA._consumerKey,
+    config.OA._consumerSecret,
+    "", //config.OA._version,
+    "", //config.OA._authorize_callback,
+    config.OA._signatureMethod
 );
 
 vows.describe( 'Contacts without backbone' ).addBatch( {
@@ -23,8 +23,8 @@ vows.describe( 'Contacts without backbone' ).addBatch( {
             oa.getProtectedResource(
                 "https://www.google.com/m8/feeds/contacts/default/full?alt=json",
                 "GET",
-                mockState.OAuth.oauth_access_token,
-                mockState.OAuth.oauth_access_token_secret,
+                config.OAuth.oauth_access_token,
+                config.OAuth.oauth_access_token_secret,
                 function ( error, data, response ) {
                     var feed = JSON.parse( data );
                     var entries = feed.feed.entry;

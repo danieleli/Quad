@@ -8,7 +8,7 @@ var $ = require( 'jquery' ),
     Backbone = require( 'backbone' ),
     vows = require( 'vows' ),
     assert = require( 'assert' );
-var twitter = require( '../../lib/poc/twitter' );
+var twitter = require( '.././twitter' );
 
 
 Backbone.setDomLibrary( $ );

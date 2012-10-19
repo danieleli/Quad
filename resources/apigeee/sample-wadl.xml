@@ -1,0 +1,225 @@
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:apigee="http://api.apigee.com/wadl/2010/07/"
+             xmlns="http://wadl.dev.java.net/2009/02"
+             xsi:schemaLocation="http://wadl.dev.java.net/2009/02 http://apigee.com/schemas/wadl-schema.xsd http://api.apigee.com/wadl/2010/07/ http://apigee.com/schemas/apigee-wadl-extensions.xsd">
+
+    <!-- Base defines the domain and base path of the endpoint -->
+    <resources base="https://api.pps.io/v1">
+
+        <resource path="/OAuth/1A/AccessToken">
+            <method id="postAccessToken" name="POST" apigee:displayName="Request Access Token">
+                <!-- Tags are used to organize the list of methods. Primary tag will list the default placement. -->
+                <apigee:tags>
+                    <apigee:tag primary="false">Auth</apigee:tag>
+                </apigee:tags>
+
+                <apigee:authentication required="true"/>
+
+                <apigee:example url="/OAuth/1A/AccessToken"/>
+
+                <!-- The content of the doc element is shown as a tooltip in the Console's method list. -->
+                <doc apigee:url="http://api.mydomain.com/doc/resource1/method1">
+                    Request Access Token
+                </doc>
+            </method>
+        </resource>
+
+        <!-- A simple resource with a GET method -->
+        <resource path="/customers">
+            <!-- Resources that are the same but have multiple verbs can have multiple method items in the WADL. -->
+            <!-- Methods should each have a unique id. -->
+            <!-- The attribute displayName can be used to control the name that appears in the list in the Console. -->
+            <method id="getCustomers" name="GET" apigee:displayName="Get Customers">
+
+                <!-- Tags are used to organize the list of methods. Primary tag will list the default placement. -->
+                <apigee:tags>
+                    <apigee:tag primary="true">Group 1</apigee:tag>
+                    <!--<apigee:tag>Tag 2</apigee:tag>-->
+                </apigee:tags>
+
+                <!-- Is authentication required for this method? -->
+                <apigee:authentication required="true"/>
+
+                <!-- Example element is used to specify the sample URL to display in the Console's request URL field. -->
+                <!-- Note: This is not used by the new Console -->
+                <apigee:example url="/customers"/>
+
+                <!-- The content of the doc element is shown as a tooltip in the Console's method list. -->
+                <doc apigee:url="http://api.mydomain.com/doc/resource1/method1">
+                    Get Customers
+                </doc>
+            </method>
+        </resource>
+
+        <!--&lt;!&ndash; A resource with a GET method that requires a template parameter, a query parameter and a header &ndash;&gt;-->
+        <!--<resource path="/resource2.{format}">-->
+        <!--&lt;!&ndash; If a param is required, specify so. Default values can also be supplied. &ndash;&gt;-->
+        <!--&lt;!&ndash; A "query" style denotes a query parameter. "header" is a common alternative. &ndash;&gt;-->
+
+        <!--<param name="format" required="true" type="xsd:string" style="template" default="json">-->
+        <!--&lt;!&ndash; Docs are optional, but recommended. &ndash;&gt;-->
+        <!--<doc>Response format.</doc>-->
+        <!--<option value="json" mediaType="application/json"/>-->
+        <!--<option value="xml" mediaType="application/xml"/>-->
+        <!--</param>-->
+
+        <!--<param name="param1" required="true" type="xsd:string" style="query" default="12345">-->
+        <!--<doc>-->
+        <!--Parameter description.-->
+        <!--</doc>-->
+        <!--</param>-->
+
+        <!--<param name="header1" required="true" type="xsd:string" style="header" default="12345">-->
+        <!--<doc>-->
+        <!--Parameter description.-->
+        <!--</doc>-->
+        <!--</param>-->
+
+        <!--<method id="method2" name="GET" apigee:displayName="Method 2">-->
+        <!--<apigee:tags>-->
+        <!--<apigee:tag primary="true">Group 1</apigee:tag>-->
+        <!--</apigee:tags>-->
+
+        <!--<apigee:authentication required="true"/>-->
+
+        <!--<apigee:example url="/resource2.{format}"/>-->
+
+        <!--<doc apigee:url="http://api.mydomain.com/doc/resource2/method1">-->
+        <!--A GET method that requires a template parameter, a query parameter and a header.-->
+        <!--</doc>-->
+        <!--</method>-->
+        <!--</resource>-->
+
+        <!--&lt;!&ndash; A resource with a POST method that takes an XML payload. &ndash;&gt;-->
+        <!--<resource path="/resource3.{format}">-->
+        <!--<param default="json" name="format" required="true" style="template" type="xsd:string">-->
+        <!--<doc>Response format.</doc>-->
+        <!--<option mediaType="application/json" value="json"/>-->
+        <!--<option mediaType="application/xml" value="xml"/>-->
+        <!--</param>-->
+
+        <!--<method id="method3" name="POST" apigee:displayName="Method 3">-->
+        <!--<apigee:tags>-->
+        <!--<apigee:tag primary="true">Group 2</apigee:tag>-->
+        <!--</apigee:tags>-->
+
+        <!--<apigee:authentication required="false"/>-->
+
+        <!--<apigee:example url="/resource3.{format}"/>-->
+
+        <!--<doc apigee:url="http://api.mydomain.com/doc/resource3/method1">-->
+        <!--A POST method that takes an XML payload.-->
+        <!--</doc>-->
+
+        <!--&lt;!&ndash; This section captures parameters and body content specific to this method. &ndash;&gt;-->
+        <!--<request>-->
+        <!--&lt;!&ndash; This parameter is applicable only for this method; while those defined at the resource level are applicable for all methods of the resource &ndash;&gt;-->
+        <!--<param name="param1" required="true" type="xsd:string" style="query" default="12345">-->
+        <!--<doc>-->
+        <!--Parameter description.-->
+        <!--</doc>-->
+        <!--</param>-->
+
+        <!--&lt;!&ndash; This section contains the body representation, e.g. form-encoded parameters, an XML/JSON payload, an attachment etc. &ndash;&gt;-->
+        <!--<representation>-->
+        <!--&lt;!&ndash; This section describes the body content, i.e. the payload. &ndash;&gt;-->
+        <!--&lt;!&ndash; Set required to true to indicate the content as mandatory in the Console &ndash;&gt;-->
+        <!--<apigee:payload required="true">-->
+        <!--&lt;!&ndash; Docs are optional, but recommended. &ndash;&gt;-->
+        <!--<doc apigee:url="http://api.mydomain.com/doc/resource3/method1">-->
+        <!--Content description.-->
+        <!--</doc>-->
+        <!--&lt;!&ndash; Body content. &ndash;&gt;-->
+        <!--<apigee:content>-->
+        <!--<![CDATA[-->
+        <!---                                <sample>-->
+        <!---                                    <body>-->
+        <!---                                        content testing-->
+        <!---                                    </body>-->
+        <!---                                </sample>-->
+        <!---                                ]]>-->
+        <!--</apigee:content>-->
+        <!--</apigee:payload>-->
+        <!--</representation>-->
+        <!--</request>-->
+        <!--</method>-->
+        <!--</resource>-->
+
+        <!--&lt;!&ndash; A resource with a PUT method that takes form-encoded parameters in the body of the request. &ndash;&gt;-->
+        <!--<resource path="/resource4.{format}">-->
+        <!--<param default="json" name="format" required="true" style="template" type="xsd:string">-->
+        <!--<doc>Response format.</doc>-->
+        <!--<option mediaType="application/json" value="json"/>-->
+        <!--<option mediaType="application/xml" value="xml"/>-->
+        <!--</param>-->
+
+        <!--<method id="method4" name="PUT" apigee:displayName="Method 4">-->
+        <!--<apigee:tags>-->
+        <!--<apigee:tag primary="true">Group 2</apigee:tag>-->
+        <!--</apigee:tags>-->
+
+        <!--<apigee:authentication required="false"/>-->
+
+        <!--<apigee:example url="/resource4.{format}"/>-->
+
+        <!--<doc apigee:url="http://api.mydomain.com/doc/resource4/method1">-->
+        <!--A PUT method that takes form-encoded parameters in the body of the request.-->
+        <!--</doc>-->
+
+        <!--<request>-->
+        <!--&lt;!&ndash; This section contains the body representation, e.g. form-encoded parameters, an XML/JSON payload, an attachment etc. &ndash;&gt;-->
+        <!--<representation>-->
+        <!--&lt;!&ndash; Specify parameters that need to go as part of the request body &ndash;&gt;-->
+        <!--<param name="param2" required="true" type="xsd:string" style="query" default="12345">-->
+        <!--<doc>-->
+        <!--Parameter description.-->
+        <!--</doc>-->
+        <!--</param>-->
+        <!--</representation>-->
+        <!--</request>-->
+        <!--</method>-->
+        <!--</resource>-->
+
+        <!--&lt;!&ndash; A resource with a PUT method that takes an image attachment. &ndash;&gt;-->
+        <!--<resource path="/resource5.{format}">-->
+        <!--<param default="json" name="format" required="true" style="template" type="xsd:string">-->
+        <!--<doc>Response format.</doc>-->
+        <!--<option mediaType="application/json" value="json"/>-->
+        <!--<option mediaType="application/xml" value="xml"/>-->
+        <!--</param>-->
+
+        <!--<method id="method5" name="PUT" apigee:displayName="Method 5">-->
+        <!--<apigee:tags>-->
+        <!--<apigee:tag primary="true">Group 2</apigee:tag>-->
+        <!--</apigee:tags>-->
+
+        <!--<apigee:authentication required="false"/>-->
+
+        <!--<apigee:example url="/resource5.{format}"/>-->
+
+        <!--<doc apigee:url="http://api.mydomain.com/doc/resource5/method1">-->
+        <!--A PUT method that takes an image attachment.-->
+        <!--</doc>-->
+
+        <!--<request>-->
+        <!--&lt;!&ndash; This section contains the body representation, e.g. form-encoded parameters, an XML/JSON payload, an attachment etc. &ndash;&gt;-->
+        <!--<representation>-->
+        <!--&lt;!&ndash; This section describes the attachments for a method. Currently, the Console only supports one attachment. &ndash;&gt;-->
+        <!--<apigee:attachments>-->
+        <!--&lt;!&ndash; The name attribute, which is mandatory, determines the name populated in the Console and also the MIME part name. &ndash;&gt;-->
+        <!--&lt;!&ndash; The required attribute, which is optional, is set to true to indicate the attachment as mandatory in the Console. &ndash;&gt;-->
+        <!--&lt;!&ndash; The contentDisposition attribute, which is optional, sets the Content-Disposition header in the generated MIME request.-->
+        <!--Some MIME request processors expect the Content-Disposition to be "attachment", while some expect it to be "form-data". &ndash;&gt;-->
+        <!--<apigee:attachment name="image" required="true" contentDisposition="form-data">-->
+        <!--<doc>Attachment description.</doc>-->
+        <!--</apigee:attachment>-->
+        <!--</apigee:attachments>-->
+        <!--</representation>-->
+        <!--</request>-->
+        <!--</method>-->
+        <!--</resource>-->
+
+    </resources>
+
+</application>

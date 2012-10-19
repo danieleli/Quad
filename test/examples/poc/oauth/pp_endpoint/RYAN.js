@@ -3,7 +3,7 @@ var OAuth = require( 'oauth' ).OAuth,
     vows = require( 'vows' );
 
 var config = {
-    requestVerb              : "GET",
+    requestVerb              : "POST",
     requestUrl               : "https://api.pps.io/v1/customer?limit=10&offset=1",
     accessUrl                : "https://api.pps.io/v1/oauth/1a/accesstoken",
     consumerKey              : "CBF65B02-18CE-4D3C-94EE-DBA0CD478CC0",

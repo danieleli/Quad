@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" description="console.log(&quot;error: &quot; + JSON.stringify(error));" line="59" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apigee-wadl-extensions.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/oauth_dan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/poc/oauth/pps/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/poc/oauth/pps/views/google_calendars.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/poc/oauth/pps/views/google_contacts.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/poc/oauth/pps/views/layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample-wadl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/server.js" afterPath="$PROJECT_DIR$/lib/poc/oauth/google/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/views/google_calendars.ejs" afterPath="$PROJECT_DIR$/lib/poc/oauth/google/views/google_calendars.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/views/google_contacts.ejs" afterPath="$PROJECT_DIR$/lib/poc/oauth/google/views/google_contacts.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/views/layout.ejs" afterPath="$PROJECT_DIR$/lib/poc/oauth/google/views/layout.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/apigeee/apigee-wadl-extensions.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/.gitkeep" afterPath="$PROJECT_DIR$/lib/.gitkeep" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/foo.js" afterPath="$PROJECT_DIR$/examples/poc/foo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/google/server.js" afterPath="$PROJECT_DIR$/examples/poc/oauth/google/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/google/views/google_calendars.ejs" afterPath="$PROJECT_DIR$/examples/poc/oauth/google/views/google_calendars.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/google/views/google_contacts.ejs" afterPath="$PROJECT_DIR$/examples/poc/oauth/google/views/google_contacts.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/google/views/layout.ejs" afterPath="$PROJECT_DIR$/examples/poc/oauth/google/views/layout.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/pps/server.js" afterPath="$PROJECT_DIR$/examples/poc/oauth/pps/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/pps/views/google_calendars.ejs" afterPath="$PROJECT_DIR$/examples/poc/oauth/pps/views/google_calendars.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/pps/views/google_contacts.ejs" afterPath="$PROJECT_DIR$/examples/poc/oauth/pps/views/google_contacts.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/oauth/pps/views/layout.ejs" afterPath="$PROJECT_DIR$/examples/poc/oauth/pps/views/layout.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/poc/twitter.js" afterPath="$PROJECT_DIR$/examples/poc/twitter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/config_and_sample_data.js" afterPath="$PROJECT_DIR$/test/examples/poc/backbone_oauth_google/config_and_sample_data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/contactModels.js" afterPath="$PROJECT_DIR$/test/examples/poc/backbone_oauth_google/contactModels.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_backbone_spec.js" afterPath="$PROJECT_DIR$/test/examples/poc/backbone_oauth_google/google_contacts_backbone_spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" afterPath="$PROJECT_DIR$/test/examples/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/rick.js" afterPath="$PROJECT_DIR$/test/examples/poc/backbone_oauth_google/rick.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/RYAN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/backbone_models.js" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_models.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/poc/twitter_spec.js" afterPath="$PROJECT_DIR$/test/examples/poc/twitter_spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/vows_sample1_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/vows_sample1_js.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" afterPath="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js" afterPath="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/vows_sample1.js" afterPath="$PROJECT_DIR$/test/examples/vows_sample1.js" />
     </list>
+    <list id="3cb58fae-d9f5-41f2-bcae-f51d693d0087" name="New changelist" comment="" />
     <ignored path="Quad.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,109 +50,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="oauth_library_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RYAN.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="66" selection-start="2098" selection-end="2098" vertical-scroll-proportion="-1.3107256">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oauth.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="33" selection-start="6095" selection-end="6095" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#368#1346#0" expanded="false" />
-                <element signature="e#618#660#0" expanded="false" />
-                <element signature="e#668#723#0" expanded="false" />
-                <element signature="e#983#1133#0" expanded="false" />
-                <element signature="e#1185#1304#0" expanded="false" />
-                <element signature="e#1485#2153#0" expanded="false" />
-                <element signature="e#1961#2111#0" expanded="false" />
-                <element signature="e#2261#2318#0" expanded="false" />
-                <element signature="e#2375#2794#0" expanded="false" />
-                <element signature="e#2435#2792#0" expanded="false" />
-                <element signature="e#2852#2971#0" expanded="false" />
-                <element signature="e#2879#2929#0" expanded="false" />
-                <element signature="e#3252#3704#0" expanded="false" />
-                <element signature="e#3333#3533#0" expanded="false" />
-                <element signature="e#3477#3528#0" expanded="false" />
-                <element signature="e#3834#3964#0" expanded="false" />
-                <element signature="e#3909#3931#0" expanded="false" />
-                <element signature="e#3939#3962#0" expanded="false" />
-                <element signature="e#4776#4854#0" expanded="false" />
-                <element signature="e#4958#5340#0" expanded="false" />
-                <element signature="e#5019#5313#0" expanded="false" />
-                <element signature="e#5093#5224#0" expanded="false" />
-                <element signature="e#5136#5215#0" expanded="false" />
-                <element signature="e#5237#5309#0" expanded="false" />
-                <element signature="e#5484#5701#0" expanded="false" />
-                <element signature="e#5553#5671#0" expanded="false" />
-                <element signature="e#5581#5627#0" expanded="false" />
-                <element signature="e#7679#7967#0" expanded="false" />
-                <element signature="e#7831#7938#0" expanded="false" />
-                <element signature="e#8070#8322#0" expanded="false" />
-                <element signature="e#8088#8186#0" expanded="false" />
-                <element signature="e#8224#8251#0" expanded="false" />
-                <element signature="e#8257#8283#0" expanded="false" />
-                <element signature="e#9402#9585#0" expanded="false" />
-                <element signature="e#9489#9573#0" expanded="false" />
-                <element signature="e#9591#9645#0" expanded="false" />
-                <element signature="e#11973#12070#0" expanded="false" />
-                <element signature="e#12250#12949#0" expanded="false" />
-                <element signature="e#12382#12435#0" expanded="false" />
-                <element signature="e#12632#12809#0" expanded="false" />
-                <element signature="e#12825#12925#0" expanded="false" />
-                <element signature="e#12998#13335#0" expanded="false" />
-                <element signature="e#13079#13109#0" expanded="false" />
-                <element signature="e#13149#13195#0" expanded="false" />
-                <element signature="e#13237#13327#0" expanded="false" />
-                <element signature="e#13269#13319#0" expanded="false" />
-                <element signature="e#13377#13434#0" expanded="false" />
-                <element signature="e#13525#13564#0" expanded="false" />
-                <element signature="e#13595#13747#0" expanded="false" />
-                <element signature="e#13684#13723#0" expanded="false" />
-                <element signature="e#13822#14170#0" expanded="false" />
-                <element signature="e#13959#14129#0" expanded="false" />
-                <element signature="e#14006#14072#0" expanded="false" />
-                <element signature="e#14078#14125#0" expanded="false" />
-                <element signature="e#15192#15299#0" expanded="false" />
-                <element signature="e#15390#15506#0" expanded="false" />
-                <element signature="e#15594#15707#0" expanded="false" />
-                <element signature="e#15840#16275#0" expanded="false" />
-                <element signature="e#15915#15982#0" expanded="false" />
-                <element signature="e#16020#16134#0" expanded="false" />
-                <element signature="e#16394#16508#0" expanded="false" />
-                <element signature="e#16627#16742#0" expanded="false" />
-                <element signature="e#16744#17541#0" expanded="false" />
-                <element signature="e#17622#18376#0" expanded="false" />
-                <element signature="e#17665#17723#0" expanded="false" />
-                <element signature="e#17789#17855#0" expanded="false" />
-                <element signature="e#18017#18372#0" expanded="false" />
-                <element signature="e#18061#18368#0" expanded="false" />
-                <element signature="e#18466#18970#0" expanded="false" />
-                <element signature="e#18498#18526#0" expanded="false" />
-                <element signature="e#18740#18835#0" expanded="false" />
-                <element signature="e#19064#19287#0" expanded="false" />
-                <element signature="e#19095#19123#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -162,19 +74,19 @@
         <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/backbone_fetch_override_spec.js" />
         <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/backbone_models.js" />
         <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" />
-        <option value="$PROJECT_DIR$/sample-wadl.xml" />
         <option value="$PROJECT_DIR$/lib/poc/oauth/pps/server.js" />
+        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js" />
+        <option value="$PROJECT_DIR$/sample-wadl.xml" />
         <option value="$PROJECT_DIR$/node_modules/oauth/lib/oauth.js" />
         <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="204" />
-    <option name="y" value="52" />
-    <option name="width" value="2224" />
-    <option name="height" value="1366" />
+    <option name="x" value="438" />
+    <option name="y" value="48" />
+    <option name="width" value="1814" />
+    <option name="height" value="1341" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -240,6 +152,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,111 +171,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pp_endpoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="http.proxy" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/_projects/priority_payments" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -387,13 +209,18 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/poc/oauth/pp_endpoint" />
-      <recent name="$PROJECT_DIR$/lib/poc/oauth/google" />
-      <recent name="$PROJECT_DIR$/lib/poc/oauth" />
+      <recent name="$PROJECT_DIR$/resources/apigeee" />
       <recent name="$PROJECT_DIR$/test/examples" />
+      <recent name="$PROJECT_DIR$/examples/poc" />
+      <recent name="$PROJECT_DIR$/examples" />
+      <recent name="$PROJECT_DIR$/test/poc/oauth/pp_endpoint" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.oauth - pp - library">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node JS Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="/usr/local/bin/node" />
       <envs />
@@ -479,6 +306,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="" />
+      <changelist id="3cb58fae-d9f5-41f2-bcae-f51d693d0087" name="New changelist" comment="" />
       <created>1349911441547</created>
       <updated>1349911441547</updated>
     </task>
@@ -530,23 +358,27 @@
       <created>1350145829496</created>
       <updated>1350145829496</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="oauth get access token test">
+      <created>1350432051284</created>
+      <updated>1350432051284</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="204" y="52" width="2224" height="1366" extended-state="0" />
+    <frame x="438" y="48" width="1814" height="1341" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44881245" sideWeight="0.984985" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44816053" sideWeight="0.9264706" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14325069" sideWeight="0.5511876" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2948403" sideWeight="0.99678606" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1402715" sideWeight="0.5518395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.88914025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44816053" sideWeight="0.06957014" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27173913" sideWeight="0.9042173" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4832776" sideWeight="0.49773756" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -592,7 +424,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="consolidate tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="oauth get access token test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -618,262 +450,24 @@
     <MESSAGE value="cleaned up tests" />
     <MESSAGE value="create pp unit test" />
     <MESSAGE value="consolidate tests" />
+    <MESSAGE value="oauth get access token test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/oauth_dan.js</url>
-          <line>462</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/oauth_dan.js</url>
-          <line>464</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/oauth_dan.js</url>
-          <line>470</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/oauth_dan.js</url>
-          <line>460</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js</url>
-          <line>191</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js</url>
-          <line>190</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js</url>
-          <line>286</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="142" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/rick.js">
+    <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_models.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="518" selection-end="518" vertical-scroll-proportion="-5.1">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_backbone_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/oauth_dan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="460" column="0" selection-start="16708" selection-end="16708" vertical-scroll-proportion="0.4950495">
-          <folding>
-            <element signature="e#397#1443#0" expanded="false" />
-            <element signature="e#667#716#0" expanded="false" />
-            <element signature="e#726#788#0" expanded="false" />
-            <element signature="e#866#952#0" expanded="false" />
-            <element signature="e#1074#1219#0" expanded="false" />
-            <element signature="e#1275#1399#0" expanded="false" />
-            <element signature="e#1590#2297#0" expanded="false" />
-            <element signature="e#1899#1986#0" expanded="false" />
-            <element signature="e#2108#2253#0" expanded="false" />
-            <element signature="e#2407#2466#0" expanded="false" />
-            <element signature="e#2528#2978#0" expanded="false" />
-            <element signature="e#2576#2601#0" expanded="false" />
-            <element signature="e#2611#2976#0" expanded="false" />
-            <element signature="e#3040#3173#0" expanded="false" />
-            <element signature="e#3070#3128#0" expanded="false" />
-            <element signature="e#3265#3410#0" expanded="false" />
-            <element signature="e#3469#3944#0" expanded="false" />
-            <element signature="e#3559#3768#0" expanded="false" />
-            <element signature="e#3710#3762#0" expanded="false" />
-            <element signature="e#4078#4229#0" expanded="false" />
-            <element signature="e#4160#4188#0" expanded="false" />
-            <element signature="e#4198#4227#0" expanded="false" />
-            <element signature="e#4364#5103#0" expanded="false" />
-            <element signature="e#4421#4482#0" expanded="false" />
-            <element signature="e#4541#4975#0" expanded="false" />
-            <element signature="e#4551#4650#0" expanded="false" />
-            <element signature="e#4789#4969#0" expanded="false" />
-            <element signature="e#5105#5183#0" expanded="false" />
-            <element signature="e#5291#5718#0" expanded="false" />
-            <element signature="e#5359#5689#0" expanded="false" />
-            <element signature="e#5439#5592#0" expanded="false" />
-            <element signature="e#5494#5582#0" expanded="false" />
-            <element signature="e#5606#5683#0" expanded="false" />
-            <element signature="e#5866#6131#0" expanded="false" />
-            <element signature="e#5944#6098#0" expanded="false" />
-            <element signature="e#5974#6026#0" expanded="false" />
-            <element signature="e#6040#6092#0" expanded="false" />
-            <element signature="e#6206#6932#0" expanded="false" />
-            <element signature="e#6371#6524#0" expanded="false" />
-            <element signature="e#6752#6913#0" expanded="false" />
-            <element signature="e#7018#7191#0" expanded="false" />
-            <element signature="e#7276#7868#0" expanded="false" />
-            <element signature="e#7315#7352#0" expanded="false" />
-            <element signature="e#7362#7424#0" expanded="false" />
-            <element signature="e#7589#7616#0" expanded="false" />
-            <element signature="e#7626#7849#0" expanded="false" />
-            <element signature="e#7655#7762#0" expanded="false" />
-            <element signature="e#7776#7843#0" expanded="false" />
-            <element signature="e#8295#8601#0" expanded="false" />
-            <element signature="e#8456#8569#0" expanded="false" />
-            <element signature="e#8706#9015#0" expanded="false" />
-            <element signature="e#8726#8856#0" expanded="false" />
-            <element signature="e#8899#8933#0" expanded="false" />
-            <element signature="e#8939#8972#0" expanded="false" />
-            <element signature="e#9134#10894#0" expanded="false" />
-            <element signature="e#9162#9452#0" expanded="false" />
-            <element signature="e#9478#9539#0" expanded="false" />
-            <element signature="e#9578#9734#0" expanded="false" />
-            <element signature="e#9744#10679#0" expanded="false" />
-            <element signature="e#9774#9903#0" expanded="false" />
-            <element signature="e#9820#9893#0" expanded="false" />
-            <element signature="e#9985#10554#0" expanded="false" />
-            <element signature="e#10128#10544#0" expanded="false" />
-            <element signature="e#10228#10455#0" expanded="false" />
-            <element signature="e#10335#10437#0" expanded="false" />
-            <element signature="e#10461#10530#0" expanded="false" />
-            <element signature="e#10909#12811#0" expanded="false" />
-            <element signature="e#10952#11206#0" expanded="false" />
-            <element signature="e#11294#11760#0" expanded="false" />
-            <element signature="e#11350#11436#0" expanded="false" />
-            <element signature="e#11450#11515#0" expanded="false" />
-            <element signature="e#11599#11730#0" expanded="false" />
-            <element signature="e#11655#11720#0" expanded="false" />
-            <element signature="e#11867#12129#0" expanded="false" />
-            <element signature="e#11988#12123#0" expanded="false" />
-            <element signature="e#12056#12113#0" expanded="false" />
-            <element signature="e#12225#12434#0" expanded="false" />
-            <element signature="e#12328#12402#0" expanded="false" />
-            <element signature="e#12504#12809#0" expanded="false" />
-            <element signature="e#12644#12718#0" expanded="false" />
-            <element signature="e#12732#12782#0" expanded="false" />
-            <element signature="e#12977#16127#0" expanded="false" />
-            <element signature="e#13921#15926#0" expanded="false" />
-            <element signature="e#13955#14052#0" expanded="false" />
-            <element signature="e#14256#15175#0" expanded="false" />
-            <element signature="e#14293#15165#0" expanded="false" />
-            <element signature="e#14414#14488#0" expanded="false" />
-            <element signature="e#14630#15013#0" expanded="false" />
-            <element signature="e#15035#15151#0" expanded="false" />
-            <element signature="e#15231#15623#0" expanded="false" />
-            <element signature="e#15482#15610#0" expanded="false" />
-            <element signature="e#15523#15596#0" expanded="false" />
-            <element signature="e#15674#15748#0" expanded="false" />
-            <element signature="e#15846#15897#0" expanded="false" />
-            <element signature="e#15936#16112#0" expanded="false" />
-            <element signature="e#16031#16082#0" expanded="false" />
-            <element signature="e#16193#16586#0" expanded="false" />
-            <element signature="e#16341#16542#0" expanded="false" />
-            <element signature="e#16395#16472#0" expanded="false" />
-            <element signature="e#16478#16536#0" expanded="false" />
-            <element signature="e#17731#17840#0" expanded="false" />
-            <element signature="e#17935#18053#0" expanded="false" />
-            <element signature="e#18145#18260#0" expanded="false" />
-            <element signature="e#18401#18884#0" expanded="false" />
-            <element signature="e#18482#18561#0" expanded="false" />
-            <element signature="e#18602#18733#0" expanded="false" />
-            <element signature="e#19011#19129#0" expanded="false" />
-            <element signature="e#19256#19375#0" expanded="false" />
-            <element signature="e#19377#20174#0" expanded="false" />
-            <element signature="e#20257#21177#0" expanded="false" />
-            <element signature="e#20303#20368#0" expanded="false" />
-            <element signature="e#20439#20512#0" expanded="false" />
-            <element signature="e#20687#21172#0" expanded="false" />
-            <element signature="e#20714#20764#0" expanded="false" />
-            <element signature="e#20782#21162#0" expanded="false" />
-            <element signature="e#21271#21823#0" expanded="false" />
-            <element signature="e#21306#21341#0" expanded="false" />
-            <element signature="e#21571#21678#0" expanded="false" />
-            <element signature="e#21921#22163#0" expanded="false" />
-            <element signature="e#21955#21990#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/foo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/oauth/google/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="14" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.3968254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/oauth/pps/views/google_calendars.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/oauth/pps/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/oauth/pps/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="596" selection-end="596" vertical-scroll-proportion="-0.36507937">
-          <folding>
-            <element signature="e#884#1028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/oauth/pps/views/google_contacts.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/twitter_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="16" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.74603176">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/poc/twitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="432" selection-end="432" vertical-scroll-proportion="0.3015873">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="33" selection-start="6095" selection-end="6095" vertical-scroll-proportion="0.0">
+        <state line="393" column="0" selection-start="13479" selection-end="13479" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#368#1346#0" expanded="false" />
             <element signature="e#618#660#0" expanded="false" />
@@ -887,12 +481,18 @@
             <element signature="e#2435#2792#0" expanded="false" />
             <element signature="e#2852#2971#0" expanded="false" />
             <element signature="e#2879#2929#0" expanded="false" />
+            <element signature="e#3059#3197#0" expanded="false" />
             <element signature="e#3252#3704#0" expanded="false" />
             <element signature="e#3333#3533#0" expanded="false" />
             <element signature="e#3477#3528#0" expanded="false" />
             <element signature="e#3834#3964#0" expanded="false" />
             <element signature="e#3909#3931#0" expanded="false" />
             <element signature="e#3939#3962#0" expanded="false" />
+            <element signature="e#4095#4774#0" expanded="false" />
+            <element signature="e#4145#4200#0" expanded="false" />
+            <element signature="e#4255#4655#0" expanded="false" />
+            <element signature="e#4262#4361#0" expanded="false" />
+            <element signature="e#4491#4651#0" expanded="false" />
             <element signature="e#4776#4854#0" expanded="false" />
             <element signature="e#4958#5340#0" expanded="false" />
             <element signature="e#5019#5313#0" expanded="false" />
@@ -902,66 +502,175 @@
             <element signature="e#5484#5701#0" expanded="false" />
             <element signature="e#5553#5671#0" expanded="false" />
             <element signature="e#5581#5627#0" expanded="false" />
+            <element signature="e#5772#6428#0" expanded="false" />
+            <element signature="e#5919#6060#0" expanded="false" />
+            <element signature="e#6267#6411#0" expanded="false" />
+            <element signature="e#6510#6673#0" expanded="false" />
+            <element signature="e#6754#7274#0" expanded="false" />
+            <element signature="e#7023#7045#0" expanded="false" />
+            <element signature="e#7054#7256#0" expanded="false" />
+            <element signature="e#7081#7178#0" expanded="false" />
+            <element signature="e#7191#7251#0" expanded="false" />
             <element signature="e#7679#7967#0" expanded="false" />
             <element signature="e#7831#7938#0" expanded="false" />
-            <element signature="e#8070#8322#0" expanded="false" />
-            <element signature="e#8088#8186#0" expanded="false" />
-            <element signature="e#8224#8251#0" expanded="false" />
-            <element signature="e#8257#8283#0" expanded="false" />
-            <element signature="e#9402#9585#0" expanded="false" />
-            <element signature="e#9489#9573#0" expanded="false" />
-            <element signature="e#9591#9645#0" expanded="false" />
-            <element signature="e#11973#12070#0" expanded="false" />
-            <element signature="e#12250#12949#0" expanded="false" />
-            <element signature="e#12382#12435#0" expanded="false" />
-            <element signature="e#12632#12809#0" expanded="false" />
-            <element signature="e#12825#12925#0" expanded="false" />
-            <element signature="e#12998#13335#0" expanded="false" />
-            <element signature="e#13079#13109#0" expanded="false" />
-            <element signature="e#13149#13195#0" expanded="false" />
-            <element signature="e#13237#13327#0" expanded="false" />
-            <element signature="e#13269#13319#0" expanded="false" />
-            <element signature="e#13377#13434#0" expanded="false" />
-            <element signature="e#13525#13564#0" expanded="false" />
-            <element signature="e#13595#13747#0" expanded="false" />
-            <element signature="e#13684#13723#0" expanded="false" />
-            <element signature="e#13822#14170#0" expanded="false" />
-            <element signature="e#13959#14129#0" expanded="false" />
-            <element signature="e#14006#14072#0" expanded="false" />
-            <element signature="e#14078#14125#0" expanded="false" />
-            <element signature="e#15192#15299#0" expanded="false" />
-            <element signature="e#15390#15506#0" expanded="false" />
-            <element signature="e#15594#15707#0" expanded="false" />
-            <element signature="e#15840#16275#0" expanded="false" />
-            <element signature="e#15915#15982#0" expanded="false" />
-            <element signature="e#16020#16134#0" expanded="false" />
-            <element signature="e#16394#16508#0" expanded="false" />
-            <element signature="e#16627#16742#0" expanded="false" />
-            <element signature="e#16744#17541#0" expanded="false" />
-            <element signature="e#17622#18376#0" expanded="false" />
-            <element signature="e#17665#17723#0" expanded="false" />
-            <element signature="e#17789#17855#0" expanded="false" />
-            <element signature="e#18017#18372#0" expanded="false" />
-            <element signature="e#18061#18368#0" expanded="false" />
-            <element signature="e#18466#18970#0" expanded="false" />
-            <element signature="e#18498#18526#0" expanded="false" />
-            <element signature="e#18740#18835#0" expanded="false" />
-            <element signature="e#19064#19287#0" expanded="false" />
-            <element signature="e#19095#19123#0" expanded="false" />
+            <element signature="e#8266#8293#0" expanded="false" />
+            <element signature="e#8299#8325#0" expanded="false" />
+            <element signature="e#8481#10026#0" expanded="false" />
+            <element signature="e#8506#8782#0" expanded="false" />
+            <element signature="e#8805#8859#0" expanded="false" />
+            <element signature="e#8893#9030#0" expanded="false" />
+            <element signature="e#9038#9821#0" expanded="false" />
+            <element signature="e#9063#9169#0" expanded="false" />
+            <element signature="e#9102#9163#0" expanded="false" />
+            <element signature="e#9241#9703#0" expanded="false" />
+            <element signature="e#9361#9697#0" expanded="false" />
+            <element signature="e#9444#9627#0" expanded="false" />
+            <element signature="e#9531#9615#0" expanded="false" />
+            <element signature="e#9633#9687#0" expanded="false" />
+            <element signature="e#10327#10392#0" expanded="false" />
+            <element signature="e#10707#10778#0" expanded="false" />
+            <element signature="e#10786#10836#0" expanded="false" />
+            <element signature="e#10908#11004#0" expanded="false" />
+            <element signature="e#10953#11000#0" expanded="false" />
+            <element signature="e#11110#11210#0" expanded="false" />
+            <element signature="e#11167#11206#0" expanded="false" />
+            <element signature="e#11307#11364#0" expanded="false" />
+            <element signature="e#11744#11847#0" expanded="false" />
+            <element signature="e#11855#11952#0" expanded="false" />
+            <element signature="e#12015#12112#0" expanded="false" />
+            <element signature="e#12424#12477#0" expanded="false" />
+            <element signature="e#12674#12851#0" expanded="false" />
+            <element signature="e#13040#13377#0" expanded="false" />
+            <element signature="e#13121#13151#0" expanded="false" />
+            <element signature="e#13191#13237#0" expanded="false" />
+            <element signature="e#13279#13369#0" expanded="false" />
+            <element signature="e#13311#13361#0" expanded="false" />
+            <element signature="e#13419#13476#0" expanded="false" />
+            <element signature="e#13567#13606#0" expanded="false" />
+            <element signature="e#13637#13789#0" expanded="false" />
+            <element signature="e#13726#13765#0" expanded="false" />
+            <element signature="e#13864#14212#0" expanded="false" />
+            <element signature="e#14001#14171#0" expanded="false" />
+            <element signature="e#14048#14114#0" expanded="false" />
+            <element signature="e#14120#14167#0" expanded="false" />
+            <element signature="e#14398#14433#0" expanded="false" />
+            <element signature="e#14439#14492#0" expanded="false" />
+            <element signature="e#15227#15334#0" expanded="false" />
+            <element signature="e#15425#15541#0" expanded="false" />
+            <element signature="e#15875#16310#0" expanded="false" />
+            <element signature="e#15950#16017#0" expanded="false" />
+            <element signature="e#16055#16169#0" expanded="false" />
+            <element signature="e#16429#16543#0" expanded="false" />
+            <element signature="e#16662#16777#0" expanded="false" />
+            <element signature="e#16779#17576#0" expanded="false" />
+            <element signature="e#17657#18411#0" expanded="false" />
+            <element signature="e#17700#17758#0" expanded="false" />
+            <element signature="e#17824#17890#0" expanded="false" />
+            <element signature="e#18052#18407#0" expanded="false" />
+            <element signature="e#18096#18403#0" expanded="false" />
+            <element signature="e#18501#19005#0" expanded="false" />
+            <element signature="e#18533#18561#0" expanded="false" />
+            <element signature="e#18775#18870#0" expanded="false" />
+            <element signature="e#19099#19322#0" expanded="false" />
+            <element signature="e#19130#19158#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows/suite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="26" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+        <state line="167" column="0" selection-start="5778" selection-end="5778" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js">
+    <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="66" selection-start="2098" selection-end="2098" vertical-scroll-proportion="-1.3107256">
+        <state line="114" column="0" selection-start="3685" selection-end="3685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.33247754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="0" selection-start="4680" selection-end="4680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/test/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="7" selection-start="483" selection-end="483" vertical-scroll-proportion="0.26957637">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/.npmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Gateway.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="38" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/poc/foo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

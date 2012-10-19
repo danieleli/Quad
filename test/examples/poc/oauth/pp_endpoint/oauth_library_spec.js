@@ -47,31 +47,31 @@ var helper = {
 };
 
 vows.describe( 'OAuth library' )
-    .addBatch( {
-        'getOAuthAccessToken()': {
-            topic                : function () {
-                oa.getOAuthAccessToken(
-                    "", // oauth_token
-                    "", // oauth_token_secret
-                    this.callback
-                );
-            },
-            'returns status 200 ': function ( error, oauth_access_token, oauth_access_token_secret, results ) {
-                console.log( "results: " + JSON.stringify( results ) );
-                console.log( "error: " + JSON.stringify( error ) );
-                console.log( "oauth_access_token: " + JSON.stringify( oauth_access_token ) );
-                console.log( "oauth_access_token_secret: " + JSON.stringify( oauth_access_token_secret ) );
-                assert.equal( error, null, "error" );
-                assert.ok( oauth_access_token, "access token" );
-                assert.ok( oauth_access_token_secret, "access token secret" );
-            }
-        }
-    } )
+    //    .addBatch( {
+    //        'getOAuthAccessToken()': {
+    //            topic                : function () {
+    //                oa.getOAuthAccessToken(
+    //                    "", // oauth_token
+    //                    "", // oauth_token_secret
+    //                    this.callback
+    //                );
+    //            },
+    //            'returns status 200 ': function ( error, oauth_access_token, oauth_access_token_secret, results ) {
+    //                console.log( "results: " + JSON.stringify( results ) );
+    //                console.log( "error: " + JSON.stringify( error ) );
+    //                console.log( "oauth_access_token: " + JSON.stringify( oauth_access_token ) );
+    //                console.log( "oauth_access_token_secret: " + JSON.stringify( oauth_access_token_secret ) );
+    //                assert.equal( error, null, "error" );
+    //                assert.ok( oauth_access_token, "access token" );
+    //                assert.ok( oauth_access_token_secret, "access token secret" );
+    //            }
+    //        }
+    //    } )
 
     .addBatch( {
         'get secure resouce after fetching access token': {
             topic                : function () {
-                var target = "https://api.pps.io/v1/Payment&limit=10";
+                var target = "https://api.pps.io/v1/payment";
                 var cb = this.callback;
                 var oAuth = helper.getOAuth();
                 var result = oAuth.getOAuthAccessToken(
@@ -79,7 +79,12 @@ vows.describe( 'OAuth library' )
                     "", // oauth_token_secret
                     function ( error, oauth_access_token, oauth_access_token_secret, results ) {
                         assert.ok( oauth_access_token, "access token undefined" );
+                        console.log( "access token:" + oauth_access_token );
                         assert.ok( oauth_access_token_secret, "access token --secret-- undefined" );
+                        console.log( "access token secret:" + oauth_access_token_secret );
+
+
+                        // Get Payments
                         var request = oAuth.get( target,
                             oauth_access_token, oauth_access_token_secret, cb );
                     } );
@@ -94,25 +99,25 @@ vows.describe( 'OAuth library' )
                 console.log( obj );
             }
         }} )
-
-    .addBatch( {
-        'get secure resouce without prefetching  access token': {
-            topic                : function () {
-                var target = "https://api.pps.io/v1/Payment?limit=10";
-                var request = oa.get( target,
-                    null, null, this.callback );
-            },
-            'returns status 200 ': function ( error, data, response ) {
-                if ( error ) {
-                    var msg = "Unexpected status code: " + error.statusCode + "\n\ndata: " + data + "\n";
-                    assert.equal( error.statusCode, 200, msg );
-                }
-                assert.equal( response.status, 200 );
-                var obj = JSON.parse( data );
-                console.log( obj );
-            }
-        }
-    } )
+    //
+    //    .addBatch( {
+    //        'get secure resouce without prefetching  access token': {
+    //            topic                : function () {
+    //                var target = "https://api.pps.io/v1/Payment?limit=10";
+    //                var request = oa.get( target,
+    //                    null, null, this.callback );
+    //            },
+    //            'returns status 200 ': function ( error, data, response ) {
+    //                if ( error ) {
+    //                    var msg = "Unexpected status code: " + error.statusCode + "\n\ndata: " + data + "\n";
+    //                    assert.equal( error.statusCode, 200, msg );
+    //                }
+    //                assert.equal( response.status, 200 );
+    //                var obj = JSON.parse( data );
+    //                console.log( obj );
+    //            }
+    //        }
+    //    } )
 
 
     .run();

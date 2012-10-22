@@ -22,19 +22,19 @@ var config = {
     //    oauth_access_token_secret: "e4339ed6-2c67-4c7d-855e-f8e2ffbca8dd"
 };
 
-
-var oa = new OAuth(
-    "", //config.requestUrl,
-    config.accessTokenUrl,
-    config.consumerKey,
-    config.consumerSecret,
-    config.version,
-    "", //config.authorize_callback,
-    config.signatureMethod
-);
+var merchId = "10001322";
+//var oa = new OAuth(
+//    "", //config.requestUrl,
+//    config.accessTokenUrl,
+//    config.consumerKey,
+//    config.consumerSecret,
+//    config.version,
+//    "", //config.authorize_callback,
+//    config.signatureMethod
+//);
 var helper = {
     getOAuth: function () {
-        return new OAuth(
+        var rtn = new OAuth(
             "", //config.requestUrl,
             config.accessTokenUrl,
             config.consumerKey,
@@ -43,35 +43,38 @@ var helper = {
             "", //config.authorize_callback,
             config.signatureMethod
         );
+
+        return rtn;
     }
 };
 
 vows.describe( 'OAuth library' )
-    //    .addBatch( {
-    //        'getOAuthAccessToken()': {
-    //            topic                : function () {
-    //                oa.getOAuthAccessToken(
-    //                    "", // oauth_token
-    //                    "", // oauth_token_secret
-    //                    this.callback
-    //                );
-    //            },
-    //            'returns status 200 ': function ( error, oauth_access_token, oauth_access_token_secret, results ) {
-    //                console.log( "results: " + JSON.stringify( results ) );
-    //                console.log( "error: " + JSON.stringify( error ) );
-    //                console.log( "oauth_access_token: " + JSON.stringify( oauth_access_token ) );
-    //                console.log( "oauth_access_token_secret: " + JSON.stringify( oauth_access_token_secret ) );
-    //                assert.equal( error, null, "error" );
-    //                assert.ok( oauth_access_token, "access token" );
-    //                assert.ok( oauth_access_token_secret, "access token secret" );
+    //        .addBatch( {
+    //            'getOAuthAccessToken()': {
+    //                topic                : function () {
+    //                    var oa = helper.OAuth();
+    //                    oa.getOAuthAccessToken(
+    //                        "", // oauth_token
+    //                        "", // oauth_token_secret
+    //                        this.callback
+    //                    );
+    //                },
+    //                'returns status 200 ': function ( error, oauth_access_token, oauth_access_token_secret, results ) {
+    //                    console.log( "results: " + JSON.stringify( results ) );
+    //                    console.log( "error: " + JSON.stringify( error ) );
+    //                    console.log( "oauth_access_token: " + JSON.stringify( oauth_access_token ) );
+    //                    console.log( "oauth_access_token_secret: " + JSON.stringify( oauth_access_token_secret ) );
+    //                    assert.equal( error, null, "error" );
+    //                    assert.ok( oauth_access_token, "access token" );
+    //                    assert.ok( oauth_access_token_secret, "access token secret" );
+    //                }
     //            }
-    //        }
-    //    } )
+    //        } )
 
     .addBatch( {
         'get secure resouce after fetching access token': {
             topic                : function () {
-                var target = "https://api.pps.io/v1/payment";
+                var target = "https://api.pps.io/v1/pci";
                 var cb = this.callback;
                 var oAuth = helper.getOAuth();
                 var result = oAuth.getOAuthAccessToken(
@@ -94,7 +97,7 @@ vows.describe( 'OAuth library' )
                     assert.equal( error.statusCode, 200,
                         "Unexpected status code: " + error.statusCode );
                 }
-                assert.equal( response.status, 200 );
+                assert.equal( response.statusCode, 200 );
                 var obj = JSON.parse( data );
                 console.log( obj );
             }

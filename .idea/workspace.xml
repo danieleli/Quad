@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" description="console.log(&quot;error: &quot; + JSON.stringify(error));" line="59" />
+    <bookmark url="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" description="console.log(&quot;error: &quot; + JSON.stringify(error));" line="62" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="add readme.md and MIT license.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/oauth.js.modified_for_json" />
+    <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="pciList.fetch">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test_runner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/api_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/oauth_helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/pci.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/resourceFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/resource.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testRunner.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" afterPath="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" />
     </list>
     <list id="3cb58fae-d9f5-41f2-bcae-f51d693d0087" name="New changelist" comment="" />
@@ -28,167 +38,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="oauth.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
+      <file leaf-file-name="pci.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pci.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="314" column="8" selection-start="11314" selection-end="11314" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oauth.js.modified_for_json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/oauth.js.modified_for_json">
+      <file leaf-file-name="resourceFactory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/resourceFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1350657631000" expanded="true" signature="397:1443" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="667:716" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="726:788" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="866:952" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="1074:1219" placeholder="{&quot;Accept&quot;: &quot;*/*&quot;...}" />
-                <marker date="1350657631000" expanded="true" signature="1275:1399" placeholder="{&quot;requestTokenHttpMethod&quot;: &quot;POST&quot;...}" />
-                <marker date="1350657631000" expanded="true" signature="1590:2297" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="1899:1986" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="2108:2253" placeholder="{&quot;Accept&quot;: &quot;*/*&quot;...}" />
-                <marker date="1350657631000" expanded="true" signature="2407:2466" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="2528:2978" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="2576:2601" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="2611:2976" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="3040:3173" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="3070:3128" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="3265:3410" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="3469:3944" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="3559:3768" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="3710:3762" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4078:4229" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4160:4188" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4198:4227" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4364:5103" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4421:4482" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4541:4975" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="4551:4708" placeholder="//..." />
-                <marker date="1350657631000" expanded="true" signature="4789:4969" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5105:5211" placeholder="//..." />
-                <marker date="1350657631000" expanded="true" signature="5291:5718" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5359:5689" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5439:5592" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5494:5582" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5606:5683" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5866:6131" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5944:6098" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="5974:6026" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="6040:6092" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="6206:6932" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="6371:6524" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="6752:6913" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7018:7191" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7276:7868" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7315:7352" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7362:7424" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7589:7616" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7626:7849" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7655:7762" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="7776:7843" placeholder="{...}" />
-                <marker date="1350657631000" expanded="false" signature="7907:8233" placeholder="[...]" />
-                <marker date="1350657631000" expanded="true" signature="8295:8601" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="8456:8569" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="8706:9061" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="8726:8856" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="8945:8979" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="8985:9018" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9180:10940" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9208:9498" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9524:9585" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9624:9780" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9790:10725" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9820:9949" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="9866:9939" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="10031:10600" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="10174:10590" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="10274:10501" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="10381:10483" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="10507:10576" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="11106:15354" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="11254:11375" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="11710:11788" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="11798:11855" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="11932:12049" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="11985:12043" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="12162:12279" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="12224:12273" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="12378:12444" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="12702:12768" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="12778:12820" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="12881:12993" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13003:13109" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13131:15153" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13190:13320" placeholder="//..." />
-                <marker date="1350657631000" expanded="true" signature="13486:14356" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13523:14346" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13644:13717" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13723:14332" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="13937:14164" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14190:14314" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14412:14850" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14510:14556" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14604:14664" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14714:14837" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14755:14823" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="14901:14975" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15073:15124" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15163:15339" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15258:15309" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15420:15813" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15568:15769" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15622:15699" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15705:15763" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="15933:17028" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16008:16050" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16056:16116" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16311:17024" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16338:16388" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16406:17014" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16513:16582" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="16588:16664" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="17159:17268" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="17363:17481" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="17573:17688" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="17829:18312" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="17910:17989" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="18030:18161" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="18439:18557" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="18684:18803" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="18805:19602" placeholder="/** Gets a request token from the OAuth provider and passes that information back ...*/" />
-                <marker date="1350657631000" expanded="true" signature="19685:20605" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="19731:19796" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="19867:19940" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="20115:20600" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="20142:20192" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="20210:20590" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="20699:21251" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="20734:20769" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="20999:21106" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="21349:21591" placeholder="{...}" />
-                <marker date="1350657631000" expanded="true" signature="21383:21418" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/events.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="3685" selection-end="3685" vertical-scroll-proportion="0.0">
+            <state line="104" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oauth_library_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js">
+      <file leaf-file-name="resource_test.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/resource_test.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.0">
+            <state line="4" column="45" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample-wadl.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/apigeee/sample-wadl.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="66" selection-start="309" selection-end="309" vertical-scroll-proportion="0.09448819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backbone_pci.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="51" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="448" column="0" selection-start="12522" selection-end="12522" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vows.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,29 +114,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/test.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_backbone_fetch_override.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/backbone_models.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_backbone_fetch_override_spec.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint_spec.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/backbone_fetch_override_spec.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/backbone_models.js" />
-        <option value="$PROJECT_DIR$/test/poc/backbone_oauth_google/google_contacts_oauth_no_backbone.js" />
-        <option value="$PROJECT_DIR$/lib/poc/oauth/pps/server.js" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/RYAN.js" />
         <option value="$PROJECT_DIR$/sample-wadl.xml" />
         <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/node_modules/oauth/lib/oauth.js" />
+        <option value="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" />
         <option value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" />
+        <option value="$PROJECT_DIR$/lib/resource.js" />
+        <option value="$PROJECT_DIR$/lib/api.js" />
+        <option value="$PROJECT_DIR$/test/testRunner.js" />
+        <option value="$PROJECT_DIR$/test/resource_test.coffee" />
+        <option value="$PROJECT_DIR$/test/resource.test.js" />
+        <option value="$PROJECT_DIR$/lib/config.js" />
+        <option value="$PROJECT_DIR$/lib/oauth_helper.js" />
+        <option value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" />
+        <option value="$PROJECT_DIR$/lib/pci.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="250" />
     <option name="y" value="79" />
-    <option name="width" value="1781" />
+    <option name="width" value="2052" />
     <option name="height" value="1341" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -325,78 +232,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -408,13 +243,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="http.proxy" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" />
+    <property name="options.lastSelected" value="http.proxy" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -432,11 +267,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/test/poc/oauth" />
-      <recent name="$PROJECT_DIR$/test/poc/oauth/pp_endpoint" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/poc/oauth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/apigeee" />
@@ -446,7 +281,7 @@
       <recent name="$PROJECT_DIR$/test/poc/oauth/pp_endpoint" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.oauth - pp - library">
+  <component name="RunManager" selected="Node.js.bb_pci">
     <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node JS Remote Debug">
       <node-js-remote-debug />
       <method />
@@ -471,7 +306,14 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="oauth - pp - library" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+    <configuration default="false" name="oauth - pp - library" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bb_pci" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/examples/poc/oauth/pp_endpoint/backbone_pci.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -506,12 +348,14 @@
       <ConfigurationWrapper RunnerId="Nodeunit.run" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Node.js.vows_sample1.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.poc oauth server.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.oauth - pp - library" />
-      <item index="3" class="java.lang.String" itemvalue="Nodeunit.NodeUnit" />
-      <item index="4" class="java.lang.String" itemvalue="Nodeunit.google contacts" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.test_runner" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.bb_pci" />
+      <item index="5" class="java.lang.String" itemvalue="Nodeunit.NodeUnit" />
+      <item index="6" class="java.lang.String" itemvalue="Nodeunit.google contacts" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -604,28 +448,32 @@
       <created>1350608603430</created>
       <updated>1350608603430</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="oauth call">
+      <created>1350659557164</created>
+      <updated>1350659557165</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="79" width="1781" height="1341" extended-state="0" />
+    <frame x="250" y="79" width="2052" height="1341" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44816053" sideWeight="0.918732" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.498006" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732442" sideWeight="0.90777665" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1463977" sideWeight="0.5518395" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.881268" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12811565" sideWeight="0.5526756" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.86340976" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44816053" sideWeight="0.077233426" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27173913" sideWeight="0.9042173" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732442" sideWeight="0.0887338" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27173913" sideWeight="0.89332" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4832776" sideWeight="0.4954751" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983872" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -666,7 +514,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme.md and MIT license.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="pciList.fetch" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -695,6 +543,8 @@
     <MESSAGE value="oauth get access token test" />
     <MESSAGE value="project re-org" />
     <MESSAGE value="add readme.md and MIT license.&#10;" />
+    <MESSAGE value="oauth call" />
+    <MESSAGE value="pciList.fetch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,227 +555,125 @@
           <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="153" />
+      <option name="time" value="187" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/index.js">
+    <entry file="file://$PROJECT_DIR$/lib/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="38" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Estimate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Invoice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Payment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Recurring.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Staff.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Time_Entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="11" selection-start="6645" selection-end="6645" vertical-scroll-proportion="1.1155328">
+        <state line="29" column="41" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.58389264">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/freshbooks/lib/Tax.js">
+    <entry file="file://$PROJECT_DIR$/test/resource.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.1771502" />
+        <state line="29" column="44" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.53957784">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows/suite.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/resources/carts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="4188" selection-end="4188" vertical-scroll-proportion="-0.66880614" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/events.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="3685" selection-end="3685" vertical-scroll-proportion="0.0">
+        <state line="81" column="55" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.77021825">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testRunner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.11553273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/examples/vows_sample1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/shopnode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="19" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="33" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.73170733">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.0">
+        <state line="75" column="48" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.5287206">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="314" column="8" selection-start="11314" selection-end="11314" vertical-scroll-proportion="0.0">
+        <state line="131" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/oauth.js.modified_for_json">
+    <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1350657631000" expanded="true" signature="397:1443" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="667:716" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="726:788" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="866:952" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="1074:1219" placeholder="{&quot;Accept&quot;: &quot;*/*&quot;...}" />
-            <marker date="1350657631000" expanded="true" signature="1275:1399" placeholder="{&quot;requestTokenHttpMethod&quot;: &quot;POST&quot;...}" />
-            <marker date="1350657631000" expanded="true" signature="1590:2297" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="1899:1986" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="2108:2253" placeholder="{&quot;Accept&quot;: &quot;*/*&quot;...}" />
-            <marker date="1350657631000" expanded="true" signature="2407:2466" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="2528:2978" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="2576:2601" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="2611:2976" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="3040:3173" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="3070:3128" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="3265:3410" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="3469:3944" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="3559:3768" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="3710:3762" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4078:4229" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4160:4188" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4198:4227" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4364:5103" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4421:4482" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4541:4975" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="4551:4708" placeholder="//..." />
-            <marker date="1350657631000" expanded="true" signature="4789:4969" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5105:5211" placeholder="//..." />
-            <marker date="1350657631000" expanded="true" signature="5291:5718" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5359:5689" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5439:5592" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5494:5582" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5606:5683" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5866:6131" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5944:6098" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="5974:6026" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="6040:6092" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="6206:6932" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="6371:6524" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="6752:6913" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7018:7191" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7276:7868" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7315:7352" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7362:7424" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7589:7616" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7626:7849" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7655:7762" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="7776:7843" placeholder="{...}" />
-            <marker date="1350657631000" expanded="false" signature="7907:8233" placeholder="[...]" />
-            <marker date="1350657631000" expanded="true" signature="8295:8601" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="8456:8569" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="8706:9061" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="8726:8856" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="8945:8979" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="8985:9018" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9180:10940" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9208:9498" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9524:9585" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9624:9780" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9790:10725" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9820:9949" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="9866:9939" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="10031:10600" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="10174:10590" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="10274:10501" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="10381:10483" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="10507:10576" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="11106:15354" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="11254:11375" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="11710:11788" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="11798:11855" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="11932:12049" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="11985:12043" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="12162:12279" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="12224:12273" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="12378:12444" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="12702:12768" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="12778:12820" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="12881:12993" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13003:13109" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13131:15153" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13190:13320" placeholder="//..." />
-            <marker date="1350657631000" expanded="true" signature="13486:14356" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13523:14346" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13644:13717" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13723:14332" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="13937:14164" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14190:14314" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14412:14850" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14510:14556" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14604:14664" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14714:14837" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14755:14823" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="14901:14975" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15073:15124" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15163:15339" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15258:15309" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15420:15813" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15568:15769" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15622:15699" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15705:15763" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="15933:17028" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16008:16050" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16056:16116" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16311:17024" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16338:16388" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16406:17014" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16513:16582" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="16588:16664" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="17159:17268" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="17363:17481" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="17573:17688" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="17829:18312" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="17910:17989" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="18030:18161" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="18439:18557" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="18684:18803" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="18805:19602" placeholder="/** Gets a request token from the OAuth provider and passes that information back ...*/" />
-            <marker date="1350657631000" expanded="true" signature="19685:20605" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="19731:19796" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="19867:19940" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="20115:20600" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="20142:20192" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="20210:20590" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="20699:21251" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="20734:20769" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="20999:21106" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="21349:21591" placeholder="{...}" />
-            <marker date="1350657631000" expanded="true" signature="21383:21418" placeholder="{...}" />
-          </folding>
+        <state line="448" column="0" selection-start="12522" selection-end="12522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="51" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resourceFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/resource_test.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/apigeee/sample-wadl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="66" selection-start="309" selection-end="309" vertical-scroll-proportion="0.09448819">
+          <folding />
         </state>
       </provider>
     </entry>

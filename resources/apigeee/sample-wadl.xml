@@ -52,6 +52,33 @@
             </method>
         </resource>
 
+        <!-- A simple resource with a GET method -->
+        <resource path="/pci">
+            <!-- Resources that are the same but have multiple verbs can have multiple method items in the WADL. -->
+            <!-- Methods should each have a unique id. -->
+            <!-- The attribute displayName can be used to control the name that appears in the list in the Console. -->
+            <method id="getPCI" name="GET" apigee:displayName="Get PCI">
+
+                <!-- Tags are used to organize the list of methods. Primary tag will list the default placement. -->
+                <apigee:tags>
+                    <apigee:tag primary="true">Group 1</apigee:tag>
+                    <!--<apigee:tag>Tag 2</apigee:tag>-->
+                </apigee:tags>
+
+                <!-- Is authentication required for this method? -->
+                <apigee:authentication required="true"/>
+
+                <!-- Example element is used to specify the sample URL to display in the Console's request URL field. -->
+                <!-- Note: This is not used by the new Console -->
+                <apigee:example url="/pci"/>
+
+                <!-- The content of the doc element is shown as a tooltip in the Console's method list. -->
+                <doc apigee:url="http://api.mydomain.com/doc/resource1/pci">
+                    get pci list
+                </doc>
+            </method>
+        </resource>
+
         <!--&lt;!&ndash; A resource with a GET method that requires a template parameter, a query parameter and a header &ndash;&gt;-->
         <!--<resource path="/resource2.{format}">-->
         <!--&lt;!&ndash; If a param is required, specify so. Default values can also be supplied. &ndash;&gt;-->

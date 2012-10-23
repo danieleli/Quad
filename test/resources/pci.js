@@ -32,7 +32,7 @@ vows.describe( 'PCI' )
             },
             'triggers reset and populates collection with returned data': function ( collection, options ) {
                 assert.equal( collection.length > 0, true, "collection" );
-                //console.log( collection.toJSON() );
+                console.log( collection.toJSON() );
             }
         }
     } )

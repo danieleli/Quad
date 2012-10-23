@@ -46,7 +46,7 @@ vows.describe( 'Payment' )
             'error callback is executed': function ( collection, error ) {
                 assert.ok( collection, "collection not ok" );
                 assert.ok( error, "error not ok" );
-                console.log( error );
+                console.log( "error: " + error );
             }
         }
     } )

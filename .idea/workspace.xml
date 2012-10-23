@@ -4,20 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" description="console.log(&quot;error: &quot; + JSON.stringify(error));" line="62" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="pciList.fetch">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test_runner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/api_config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/oauth_helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/pci.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/resourceFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/resource.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testRunner.js" />
+    <list default="true" id="4dda559f-5eb3-4f3c-8e79-7c3d867c1a03" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/resources/merchant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/resources/payment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/resources/merchant_tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/resources/pci.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/pci.js" afterPath="$PROJECT_DIR$/lib/resources/pci.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" afterPath="$PROJECT_DIR$/test/resources/payment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" afterPath="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" afterPath="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/oauth_helper.js" afterPath="$PROJECT_DIR$/lib/oauth_helper.js" />
     </list>
     <list id="3cb58fae-d9f5-41f2-bcae-f51d693d0087" name="New changelist" comment="" />
     <ignored path="Quad.iws" />
@@ -38,55 +33,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="oauth_helper.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/oauth_helper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pci.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pci.js">
+        <entry file="file://$PROJECT_DIR$/test/resources/pci.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0">
+            <state line="45" column="0" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resourceFactory.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/resourceFactory.js">
+      <file leaf-file-name="pci.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/resources/pci.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+            <state line="54" column="0" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.9433071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resource_test.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/resource_test.coffee">
+      <file leaf-file-name="payment.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/resources/payment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+            <state line="44" column="51" selection-start="1503" selection-end="1524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample-wadl.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/apigeee/sample-wadl.xml">
+      <file leaf-file-name="merchant.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/resources/merchant.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="66" selection-start="309" selection-end="309" vertical-scroll-proportion="0.09448819">
+            <state line="51" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backbone_pci.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js">
+      <file leaf-file-name="backbone.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/backbone/backbone.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="51" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="448" column="0" selection-start="12522" selection-end="12522" vertical-scroll-proportion="0.0">
+            <state line="695" column="6" selection-start="24799" selection-end="24799" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,6 +91,57 @@
         <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="131" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/resource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="170" column="26" selection-start="4594" selection-end="4594" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#149#151#0" expanded="false" />
+                <element signature="n#!!block;n#Resource#0" expanded="false" />
+                <element signature="e#460#672#0" expanded="false" />
+                <element signature="e#799#1213#0" expanded="false" />
+                <element signature="e#868#925#0" expanded="false" />
+                <element signature="e#1006#1106#0" expanded="false" />
+                <element signature="e#1317#1648#0" expanded="false" />
+                <element signature="e#1395#1470#0" expanded="false" />
+                <element signature="e#1874#2104#0" expanded="false" />
+                <element signature="e#1911#1989#0" expanded="false" />
+                <element signature="e#2160#2262#0" expanded="false" />
+                <element signature="e#2319#2526#0" expanded="false" />
+                <element signature="e#2365#2422#0" expanded="false" />
+                <element signature="e#2529#2551#0" expanded="false" />
+                <element signature="e#2911#3365#0" expanded="false" />
+                <element signature="e#2975#3117#0" expanded="false" />
+                <element signature="e#3039#3109#0" expanded="false" />
+                <element signature="e#3238#3311#0" expanded="false" />
+                <element signature="e#3367#3369#0" expanded="false" />
+                <element signature="e#4254#4282#0" expanded="false" />
+                <element signature="e#4338#4377#0" expanded="false" />
+                <element signature="e#4441#4485#0" expanded="false" />
+                <element signature="e#4536#4566#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows/context.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/events.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="0" selection-start="3685" selection-end="3685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,12 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sample-wadl.xml" />
-        <option value="$PROJECT_DIR$/test/poc/oauth/pp_endpoint/oauth_library_spec.js" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/node_modules/oauth/lib/oauth.js" />
-        <option value="$PROJECT_DIR$/resources/apigeee/sample-wadl.xml" />
         <option value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js" />
         <option value="$PROJECT_DIR$/lib/resource.js" />
         <option value="$PROJECT_DIR$/lib/api.js" />
@@ -127,9 +167,15 @@
         <option value="$PROJECT_DIR$/test/resource_test.coffee" />
         <option value="$PROJECT_DIR$/test/resource.test.js" />
         <option value="$PROJECT_DIR$/lib/config.js" />
-        <option value="$PROJECT_DIR$/lib/oauth_helper.js" />
         <option value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" />
         <option value="$PROJECT_DIR$/lib/pci.js" />
+        <option value="$PROJECT_DIR$/test/resources/payment.js" />
+        <option value="$PROJECT_DIR$/test/resources/merchant_tests.js" />
+        <option value="$PROJECT_DIR$/lib/resources/merchant.js" />
+        <option value="$PROJECT_DIR$/lib/resources/payment.js" />
+        <option value="$PROJECT_DIR$/lib/oauth_helper.js" />
+        <option value="$PROJECT_DIR$/test/resources/pci.js" />
+        <option value="$PROJECT_DIR$/lib/resources/pci.js" />
       </list>
     </option>
   </component>
@@ -232,7 +278,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +396,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="http.proxy" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/resources/merchant_tests.js" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -267,21 +417,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/resources" />
+      <recent name="$PROJECT_DIR$/lib/resources" />
       <recent name="$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/test/poc/oauth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/resources" />
       <recent name="$PROJECT_DIR$/resources/apigeee" />
       <recent name="$PROJECT_DIR$/test/examples" />
       <recent name="$PROJECT_DIR$/examples/poc" />
       <recent name="$PROJECT_DIR$/examples" />
-      <recent name="$PROJECT_DIR$/test/poc/oauth/pp_endpoint" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.bb_pci">
+  <component name="RunManager" selected="Node.js.pci">
     <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node JS Remote Debug">
       <node-js-remote-debug />
       <method />
@@ -313,11 +463,21 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="bb_pci" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/examples/poc/oauth/pp_endpoint/backbone_pci.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="pci" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/resources/pci.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="payment" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/resources/payment.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Merchant" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="test/resources/merchant_tests.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
     </configuration>
     <configuration default="false" name="NodeUnit" type="NodeunitConfigurationType" factoryName="Nodeunit">
@@ -348,14 +508,16 @@
       <ConfigurationWrapper RunnerId="Nodeunit.run" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Node.js.vows_sample1.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.poc oauth server.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.oauth - pp - library" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.test_runner" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.bb_pci" />
-      <item index="5" class="java.lang.String" itemvalue="Nodeunit.NodeUnit" />
-      <item index="6" class="java.lang.String" itemvalue="Nodeunit.google contacts" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.pci" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.payment" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.Merchant" />
+      <item index="7" class="java.lang.String" itemvalue="Nodeunit.NodeUnit" />
+      <item index="8" class="java.lang.String" itemvalue="Nodeunit.google contacts" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -452,23 +614,27 @@
       <created>1350659557164</created>
       <updated>1350659557165</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pciList.fetch">
+      <created>1350940022132</created>
+      <updated>1350940022132</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="250" y="79" width="2052" height="1341" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.498006" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732442" sideWeight="0.90777665" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.49601197" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732442" sideWeight="0.90428716" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12811565" sideWeight="0.5526756" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.86340976" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.8534397" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732442" sideWeight="0.0887338" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27173913" sideWeight="0.89332" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732442" sideWeight="0.09222333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27173913" sideWeight="0.8898305" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4832776" sideWeight="0.4954751" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -555,26 +721,19 @@
           <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="187" />
+      <option name="time" value="209" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/api_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="41" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.58389264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/resource.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.53957784">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/resources/carts.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -582,48 +741,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/resource.js">
+    <entry file="file://$PROJECT_DIR$/test/resources/merchant_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="55" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.77021825">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testRunner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.11553273">
+        <state line="21" column="31" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/examples/vows_sample1.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="529" column="4" selection-start="12055" selection-end="12055" vertical-scroll-proportion="0.33247754">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/shopnode.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/vows/lib/vows/context.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="19" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.73170733">
+        <state line="31" column="0" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/oauth_library_spec.js">
+    <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="48" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.5287206">
+        <state line="114" column="0" selection-start="3685" selection-end="3685" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -635,44 +776,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.8.2-src/core-modules-sources/lib/module.js">
+    <entry file="file://$PROJECT_DIR$/test/resources/payment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="448" column="0" selection-start="12522" selection-end="12522" vertical-scroll-proportion="0.0">
+        <state line="25" column="7" selection-start="912" selection-end="912" vertical-scroll-proportion="0.44159177">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/examples/poc/oauth/pp_endpoint/backbone_pci.js">
+    <entry file="file://$PROJECT_DIR$/lib/oauth_helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="51" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pci.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/backbone/backbone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0">
+        <state line="695" column="6" selection-start="24799" selection-end="24799" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/resourceFactory.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/oauth/lib/oauth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+        <state line="449" column="1" selection-start="15272" selection-end="15272" vertical-scroll-proportion="0.6511936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/resource_test.coffee">
+    <entry file="file://$PROJECT_DIR$/node_modules/shopnode/lib/resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+        <state line="170" column="26" selection-start="4594" selection-end="4594" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#149#151#0" expanded="false" />
+            <element signature="n#!!block;n#Resource#0" expanded="false" />
+            <element signature="e#460#672#0" expanded="false" />
+            <element signature="e#799#1213#0" expanded="false" />
+            <element signature="e#868#925#0" expanded="false" />
+            <element signature="e#1006#1106#0" expanded="false" />
+            <element signature="e#1317#1648#0" expanded="false" />
+            <element signature="e#1395#1470#0" expanded="false" />
+            <element signature="e#1874#2104#0" expanded="false" />
+            <element signature="e#1911#1989#0" expanded="false" />
+            <element signature="e#2160#2262#0" expanded="false" />
+            <element signature="e#2319#2526#0" expanded="false" />
+            <element signature="e#2365#2422#0" expanded="false" />
+            <element signature="e#2529#2551#0" expanded="false" />
+            <element signature="e#2911#3365#0" expanded="false" />
+            <element signature="e#2975#3117#0" expanded="false" />
+            <element signature="e#3039#3109#0" expanded="false" />
+            <element signature="e#3238#3311#0" expanded="false" />
+            <element signature="e#3367#3369#0" expanded="false" />
+            <element signature="e#4254#4282#0" expanded="false" />
+            <element signature="e#4338#4377#0" expanded="false" />
+            <element signature="e#4441#4485#0" expanded="false" />
+            <element signature="e#4536#4566#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resources/payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="51" selection-start="1503" selection-end="1524" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/apigeee/sample-wadl.xml">
+    <entry file="file://$PROJECT_DIR$/lib/resources/merchant.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="66" selection-start="309" selection-end="309" vertical-scroll-proportion="0.09448819">
+        <state line="51" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/resources/pci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resources/pci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.9433071">
           <folding />
         </state>
       </provider>

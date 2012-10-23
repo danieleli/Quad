@@ -1,14 +1,14 @@
 var Backbone = require( 'backbone' ),
-    PciList = require( '../../../../../lib/pci' ),
+    MerchantList = require( '../../lib/resources/merchant' ),
     assert = require( 'assert' ),
     vows = require( 'vows' );
 
 
-vows.describe( 'PCI' )
+vows.describe( 'Merchant' )
     .addBatch( {
         'when fetching list': {
             topic                                        : function () {
-                var pciList = new PciList();
+                var pciList = new MerchantList();
                 pciList.fetchCallback = this.callback;
                 pciList.fetch();
 
@@ -27,20 +27,20 @@ vows.describe( 'PCI' )
     .addBatch( {
         'when fetching list': {
             topic                                                       : function () {
-                var pciList = new PciList();
+                var pciList = new MerchantList();
                 pciList.on( 'reset', this.callback );
                 pciList.fetch();
             },
             'triggers reset and populates collection with returned data': function ( collection, args ) {
-                assert.equal( collection.length > 0, true, "collection" );
-                console.log( collection.toJSON() );
+                assert.ok( collection.length >= 0, true, "collection.length is not OK." );
+                console.log( "collection.toJSON(): " + collection.toJSON() );
             }
         }
     } )
     .addBatch( {
         'when fetching list returns an error': {
             topic                       : function () {
-                var pciList = new PciList();
+                var pciList = new MerchantList();
                 pciList.fetch( {error: this.callback, throwError: true} );
             },
             'error callback is executed': function ( collection, error ) {

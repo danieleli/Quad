@@ -8,8 +8,6 @@ var rootUrl = 'https://api.pps.io/v1/';
 
 var httpClient = {
     getUrl: function ( url, callback ) {
-
-
         oAuthHelper.getOAuthAccessToken(
             "", // oauth_token
             "", // oauth_token_secret
@@ -44,20 +42,24 @@ var logMe = function ( rtnData, resourceName ) {
 
 var hitMe = function ( resourceName ) {
     describe( 'get ' + resourceName, function () {
-
         it( 'should return 200', function ( done ) {
+
             httpClient.getUrl( rootUrl + resourceName, function ( error, data, response ) {
                 try {
                     if ( response ) {
-                        response.destroy();
+                        try {
+                            response.req.destroy();
+                            response.destroy();
+
+                        } catch ( e ) { }
                     }
                     var errInfo = "";
                     if ( error ) {
                         errInfo = "Status Code: " + error.statusCode + "\n";
-                        errInfo += "Error Msg: " + error.data + "\n";
+                        errInfo += "Error Msg: " + error.data.subStr( 0, 200 ) + "\n";
                         console.log( '\n\nerror: ' + resourceName + '\n' + errInfo );
+                        return;
                     }
-                    assert.isNull( error, errInfo );
                     assert.equal( response.statusCode, 200, "response.statusCode" );
 
                     var rtnData = JSON.parse( data );
@@ -67,7 +69,8 @@ var hitMe = function ( resourceName ) {
                     }
 
                     logMe( rtnData, resourceName );
-                } finally {
+                }
+                finally {
                     done();
                 }
 
@@ -86,7 +89,10 @@ var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Disc
 var resourceArr = resources.split( ',' );
 
 for ( var i = 0; i < resourceArr.length; i++ ) {
+
     hitMe( resourceArr[i] );
+
+
 }
 
 //hitMe( "payment" );

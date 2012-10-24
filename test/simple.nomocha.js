@@ -83,11 +83,11 @@ var hitMe = function ( resourceName, done ) {
 };
 
 
-//var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Discount,Geocode,InvoiceImport,' +
-//    'Loyalty,Merchant,MerchantCategory,MerchantClassification,Notification,NotificationCategory,NotificationOptionAction';
-//var resources =     'Order,OrderHistory,OrderProduct,Payment,PCI,Plan,PlanSubscription,Product,' +
-//    'ProductAction,ProductLocation,ProductPhoto,ProductTag,ProductTax,ProductVariant,RegistrationAction'
-var resources = 'Report,SAQ,SAQAction,Tag,Tax,TaxCategory,TaxCategoryTax,TimeProfile,VariantTag';
+var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Discount,Geocode,InvoiceImport,' +
+    'Loyalty,Merchant,MerchantCategory,MerchantClassification,Notification,NotificationCategory,NotificationOptionAction' +
+    'Order,OrderHistory,OrderProduct,Payment,PCI,Plan,PlanSubscription,Product,' +
+    'ProductAction,ProductLocation,ProductPhoto,ProductTag,ProductTax,ProductVariant,RegistrationAction' +
+    'Report,SAQ,SAQAction,Tag,Tax,TaxCategory,TaxCategoryTax,TimeProfile,VariantTag';
 
 var resourceArr = resources.split( ',' );
 var calls = [];
@@ -100,22 +100,4 @@ for ( var i = 0; i < resourceArr.length; i++ ) {
     }( resourceArr[i] ) );
 }
 async.series( calls );
-//
-//hitMe( "payment" );
-//hitMe( "campaign" );
-//hitMe( "account" );
-//hitMe( "autoclose" );
-//hitMe( "captcha?key=test&value=testing" );
-//hitMe( "cardtype" );
-//hitMe( "coupon" );
-//hitMe( "customer" );
 
-
-
-
-// these don't support naked 'get'
-
-//hitMe( "couponTag" );
-//hitMe( "merchant" );
-//CustomerAction,CustomerAddress,CustomerOrder,CustomerPaymentMethod,CustomerSubscription,CustomerTag,Captcha,CampaignAction,AccountAction,CouponTag,DiscountTag,Echo,FraudSetting,IPAddress,Location,LocationProduct,OrderAction
-//OrderDiscount,OrderPayment,

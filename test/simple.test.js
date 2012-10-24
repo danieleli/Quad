@@ -89,27 +89,6 @@ var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Disc
 var resourceArr = resources.split( ',' );
 
 for ( var i = 0; i < resourceArr.length; i++ ) {
-
     hitMe( resourceArr[i] );
-
-
 }
 
-//hitMe( "payment" );
-//hitMe( "campaign" );
-//hitMe( "account" );
-//hitMe( "autoclose" );
-//hitMe( "captcha?key=test&value=testing" );
-//hitMe( "cardtype" );
-//hitMe( "coupon" );
-//hitMe( "customer" );
-
-//hitMe( "loyalty" );
-
-
-// these don't support naked 'get'
-
-//hitMe( "couponTag" );
-//hitMe( "merchant" );
-//CustomerAction,CustomerAddress,CustomerOrder,CustomerPaymentMethod,CustomerSubscription,CustomerTag,Captcha,CampaignAction,AccountAction,CouponTag,DiscountTag,Echo,FraudSetting,IPAddress,Location,LocationProduct,OrderAction
-//OrderDiscount,OrderPayment,

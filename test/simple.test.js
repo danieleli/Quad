@@ -1,11 +1,14 @@
-var assert = require( 'chai' ).assert, //  http://chaijs.com/api/bdd/
-    oAuthHelper = require( '../lib/oauth_helper' ),
+var assert = require( 'chai' ).assert,
+    OAuthHelper = require( '../lib/oauth_helper' ),
     apiConfig = require( '../lib/api_config' );
+
+var oAuthHelper = OAuthHelper.instance;
 
 var rootUrl = 'https://api.pps.io/v1/';
 
 var httpClient = {
     getUrl: function ( url, callback ) {
+
 
         oAuthHelper.getOAuthAccessToken(
             "", // oauth_token
@@ -44,24 +47,30 @@ var hitMe = function ( resourceName ) {
 
         it( 'should return 200', function ( done ) {
             httpClient.getUrl( rootUrl + resourceName, function ( error, data, response ) {
-                var errInfo = "";
-                if ( error ) {
-                    errInfo = "Status Code: " + error.statusCode + "\n";
-                    errInfo += "Error Msg: " + error.data + "\n";
-                    console.log('\n\nerror: ' + resourceName + '\n' + errInfo);
+                try {
+                    if ( response ) {
+                        response.destroy();
+                    }
+                    var errInfo = "";
+                    if ( error ) {
+                        errInfo = "Status Code: " + error.statusCode + "\n";
+                        errInfo += "Error Msg: " + error.data + "\n";
+                        console.log( '\n\nerror: ' + resourceName + '\n' + errInfo );
+                    }
+                    assert.isNull( error, errInfo );
+                    assert.equal( response.statusCode, 200, "response.statusCode" );
+
+                    var rtnData = JSON.parse( data );
+
+                    if ( rtnData !== false ) {
+                        assert.ok( rtnData, "return data" );
+                    }
+
+                    logMe( rtnData, resourceName );
+                } finally {
+                    done();
                 }
-                assert.isNull( error, errInfo );
-                assert.equal( response.statusCode, 200, "response.statusCode" );
 
-                var rtnData = JSON.parse( data );
-
-                if ( rtnData !== false ) {
-                    assert.ok( rtnData, "return data" );
-                }
-
-                logMe( rtnData, resourceName );
-                response;
-                done();
             } );
 
         } );
@@ -69,15 +78,17 @@ var hitMe = function ( resourceName ) {
     } );
 };
 
+
 var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Discount,Geocode,InvoiceImport,' +
     'Loyalty,Merchant,MerchantCategory,MerchantClassification,Notification,NotificationCategory,NotificationOptionAction,' +
-    'Order,OrderHistory,OrderProduct,OrderReceipt,Payment,PaymentMethodToken,PCI,Plan,PlanSubscription,Product,ProductAction,ProductLocation,ProductPhoto,ProductTag,ProductTax,ProductVariant,RegistrationAction,Report,SAQ,SAQAction,Tag,Tax,TaxCategory,TaxCategoryTax,TimeProfile,VariantTag';
-var resourceArr = resources.split(',');
+    'Order,OrderHistory,OrderProduct,OrderReceipt,Payment,PaymentMethodToken,PCI,Plan,PlanSubscription,Product,' +
+    'ProductAction,ProductLocation,ProductPhoto,ProductTag,ProductTax,ProductVariant,RegistrationAction,Report,SAQ,SAQAction,Tag,Tax,TaxCategory,TaxCategoryTax,TimeProfile,VariantTag';
+var resourceArr = resources.split( ',' );
 
-for(var i= 0; i<resourceArr.length; i++){
+for ( var i = 0; i < resourceArr.length; i++ ) {
     hitMe( resourceArr[i] );
 }
-//
+
 //hitMe( "payment" );
 //hitMe( "campaign" );
 //hitMe( "account" );
@@ -87,7 +98,7 @@ for(var i= 0; i<resourceArr.length; i++){
 //hitMe( "coupon" );
 //hitMe( "customer" );
 
-
+//hitMe( "loyalty" );
 
 
 // these don't support naked 'get'

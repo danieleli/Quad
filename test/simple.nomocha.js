@@ -50,11 +50,13 @@ var hitMe = function ( resourceName, done ) {
             errInfo = "Status Code: " + error.statusCode + "\n";
             errInfo += "Error Msg: " + error.data + "\n";
             console.log('\n\nerror: ' + resourceName + '\n' + errInfo);
+            done();
+            return;
         }
-        console.log( "error", error, errInfo );
+        //console.log( "error", error, errInfo );
         console.log( response.statusCode, 200, "response.statusCode" );
 
-        var rtnData
+        var rtnData;
         try{
             rtnData = JSON.parse( data );
         }catch(e){
@@ -64,20 +66,24 @@ var hitMe = function ( resourceName, done ) {
         if ( rtnData !== false ) {
             console.log( rtnData, "return data" );
         }
-
-        logMe( rtnData, resourceName );
+        if (rtnData) {
+            logMe( rtnData, resourceName );
+        }
         //response;
         done();
     } );
 
 };
 
-// removed
-// Merchant
+//  'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Discount,Geocode,InvoiceImport,' +
+// 'Loyalty,MerchantClassification,Notification,NotificationCategory,NotificationOptionAction,' +
+//   'Order,OrderHistory,OrderProduct,OrderReceipt,Payment,PaymentMethodToken,PCI,PlanSubscription,' +
+// 'Product,ProductAction,ProductLocation,ProductPhoto,ProductTax,ProductVariant,' + 
+// 'RegistrationAction,Report,SAQ,SAQAction,Tag,Tax,TaxCategory,TaxCategoryTax,TimeProfile,VariantTag';
 
-var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Discount,Geocode,InvoiceImport,' +
-    'Loyalty,MerchantCategory,MerchantClassification,Notification,NotificationCategory,NotificationOptionAction,' +
-    'Order,OrderHistory,OrderProduct,OrderReceipt,Payment,PaymentMethodToken,PCI,Plan,PlanSubscription,Product,ProductAction,ProductLocation,ProductPhoto,ProductTag,ProductTax,ProductVariant,RegistrationAction,Report,SAQ,SAQAction,Tag,Tax,TaxCategory,TaxCategoryTax,TimeProfile,VariantTag';
+// "Merchant,MerchantCategory,Plan,ProductTag"
+
+var resources = "Merchant,MerchantCategory,Plan,ProductTag"
 var resourceArr = resources.split(',');
 
 var calls = [];

@@ -1,4 +1,4 @@
-var assert = require( 'chai' ).assert,
+var assert = require( 'chai' ).assert, //  http://chaijs.com/api/bdd/
     oAuthHelper = require( '../lib/oauth_helper' ),
     apiConfig = require( '../lib/api_config' );
 
@@ -20,7 +20,6 @@ var tester = {
         );
     }
 };
-//  http://chaijs.com/api/bdd/
 
 
 var logMe = function ( rtnData, resourceName ) {
@@ -78,7 +77,10 @@ hitMe( "cardtype" );
 hitMe( "coupon" );
 hitMe( "customer" );
 
+
+// these don't support 'get'
+
 //hitMe( "couponTag" );
-//hitMe("merchant");
+//hitMe( "merchant" );
 //hitMe( "customerAction" );
 //hitMe( "customerAddress" );

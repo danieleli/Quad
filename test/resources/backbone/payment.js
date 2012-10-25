@@ -1,5 +1,5 @@
 var Backbone = require( 'backbone' ),
-    PaymentList = require( '../../../lib/resources/backbone/payment' ),
+    PaymentList = require( '../.././payment' ),
     assert = require( 'assert' ),
     vows = require( 'vows' );
 

@@ -1,5 +1,5 @@
 var Backbone = require( 'backbone' ),
-    PciList = require( '../../../lib/resources/backbone/pci' ),
+    PciList = require( '../.././pci' ),
     assert = require( 'assert' ),
     vows = require( 'vows' );
 

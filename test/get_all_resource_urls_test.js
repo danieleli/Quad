@@ -1,14 +1,22 @@
-var assert = require( 'chai' ).assert,
-    ResourceCommand = require( './resource_command' );
+var assert = require( 'chai' ).assert
+    , ResourceCommand = require( './helpers/resource_command' )
+    , vows = require( 'vows' )
+    ;
 
 var command = new ResourceCommand();
 
 var hitMe = function ( resourceName ) {
-    describe( 'get ' + resourceName, function () {
-        it( 'should return 200', function ( done ) {
-            command.getResourceAsync( resourceName, done );
+    return vows.describe( 'get ' + resourceName )
+        .addBatch( {
+            'should return 200': {
+                topic : function () {
+                    command.getResourceAsync( resourceName, this.callback )
+                },
+                'blah': function ( a, b, c ) {
+                    console.log( b );
+                }
+            }
         } );
-    } );
 };
 
 
@@ -19,6 +27,7 @@ var resources = 'Account,AutoClose,Campaign,CardType,Coupon,Customer,Device,Disc
 var resourceArr = resources.split( ',' );
 
 for ( var i = 0; i < resourceArr.length; i++ ) {
-    hitMe( resourceArr[i] );
+    var vow = hitMe( resourceArr[i] );
+    vow.run();
 }
 

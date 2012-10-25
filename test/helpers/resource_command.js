@@ -1,8 +1,8 @@
 var assert = require( 'assert' ),
-    Pps = require( '../lib/pps' ),
-    apiConfig = require( '../lib/api_config' );
+    PpsClient = require( '../../lib/pps_client' ),
+    apiConfig = require( './api_config' );
 
-var pps = new Pps( apiConfig );
+var pps = new PpsClient( apiConfig );
 
 (function () {
     "use strict";
@@ -53,7 +53,7 @@ var pps = new Pps( apiConfig );
                         assert.equal( response.statusCode, 200, "response.statusCode" );
                     }
                 } finally {
-                    done();
+                    done( error, data, response );
 
                     try {
                         // clean up.

@@ -1,5 +1,5 @@
 var Backbone = require( 'backbone' ),
-    MerchantList = require( '../../lib/resources/backbone/merchant' ),
+    MerchantList = require( '../../../lib/resources/backbone/merchant' ),
     assert = require( 'assert' ),
     vows = require( 'vows' );
 

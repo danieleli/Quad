@@ -1,6 +1,6 @@
 var assert = require( 'chai' ).assert,
     Pps = require( '../lib/pps' ),
-    apiConfig = require( '../lib/api_config' );
+    apiConfig = require( 'api_config' );
 
 var pps = new Pps( apiConfig );
 

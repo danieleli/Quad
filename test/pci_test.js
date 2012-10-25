@@ -1,15 +1,15 @@
 var assert = require( 'chai' ).assert,
-    Pps = require( '../lib/pps' ),
+    PpsClient = require( '../lib/pps_client' ),
     Pci = require( '../lib/resources/pci.js' ),
     apiConfig = require( '../lib/api_config' );
 
 
-var pps = new Pps( apiConfig );
+var client = new PpsClient( apiConfig );
 
 describe( 'PCI resource', function () {
     describe( 'getAll()', function () {
         it( 'returns array of pcis', function ( done ) {
-            var myPci = new Pci( pps );
+            var myPci = new Pci( client );
             myPci.getAll( null, function ( error, data, response ) {
                 assert.isNull( error, JSON.stringify( error ) );
                 assert.ok( data );

@@ -1,6 +1,6 @@
 var vows = require( 'vows' ),
     assert = require( 'assert' ),
-    Foo = require( '../../examples/poc/foo' );
+    Foo = require( '../../../examples/poc/foo' );
 
 vows.describe( 'foo' ).addBatch( {
     'Foo': {

@@ -1,36 +1,62 @@
 class Base
   constructor: (@pps_client) ->
   getAll     : (params, callback) ->
-    @pps_client.getResource @resourceName, (error, data, response) ->
-      callback(error, data, response)
+    @pps_client.getResource @resource_name, callback
 
 
 class Pci extends Base
-  resourceName: 'Pci'
-
+  resource_name: 'Pci'
 
 class CardType extends Base
-  resourceName: 'CardType'
-
+  resource_name: 'CardType'
 
 class Account extends Base
+  resource_name: 'Account'
+
 class AutoClose extends Base
+  resource_name: 'AutoClose '
+
 class Campaign extends Base
+  resource_name: 'Campaign'
+
 class CardType extends Base
+  resource_name: 'CardType'
+
 class Coupon extends Base
+  resource_name: 'Coupon'
+
 class Customer extends Base
+  resource_name: 'Customer'
+
 class Device extends Base
+  resource_name: 'Device'
+
 class Discount extends Base
+  resource_name: 'Discount'
+
 class Geocode extends Base
+  resource_name: 'Geocode'
+
 class InvoiceImport extends Base
+  resource_name: 'InvoiceImport'
+
 class Notification extends Base
+  resource_name: 'Notification'
+
 class NotificationCategory extends Base
-  resourceName: 'NotificationCategory'
+  resource_name: 'NotificationCategory'
 
 class NotificationOptionAction extends Base
+  resource_name: 'NotificationOptionAction'
+
 class Order extends Base
+  resource_name: 'Order'
+
 class SAQ extends Base
+  resource_name: 'SAQ'
+
 class Payment extends Base
+  resource_name: 'Payment'
 
 
 module.exports = {

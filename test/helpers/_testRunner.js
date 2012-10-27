@@ -5,15 +5,12 @@ var Mocha = require( 'mocha' ),
 // First, you need to instantiate a Mocha instance.
 var mocha = new Mocha();
 
-// Then, you need to use the method "addFile" on the mocha
-// object for each file.
 mocha.addFile( 'test/pps_test' );
 
-// Now, you can run the tests.
 mocha.run();
 
 
-//// Here is an example:
+//// Here is an example for loading a directory
 //fs.readdirSync('some/dir').filter(function(file){
 //    // Only keep the .js files
 //    return file.substr(-3) === '.js';

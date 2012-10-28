@@ -60,7 +60,6 @@ class Payment extends Base
 
 
 module.exports = {
-Base
 Pci
 Account
 AutoClose

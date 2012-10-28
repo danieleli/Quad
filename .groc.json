@@ -1,4 +1,7 @@
 {
-    "glob"  : ["lib/**/*.js", "examples/**/*.js", "examples/README.md", "README.md"],
+    "glob"  : ["lib/*.js", "lib/*.coffee", "README.md"],
+    "except": ["lib/resources.js"],
     "github": true
 }
+
+

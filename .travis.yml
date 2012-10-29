@@ -3,5 +3,5 @@ node_js:
   - 0.6
 notifications:
   email:
-    - ryan@quad.io
+    - dan@softwaresingularity.com
 

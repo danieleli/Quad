@@ -14,7 +14,7 @@ class Account extends Base
   resource_name: 'Account'
 
 class AutoClose extends Base
-  resource_name: 'AutoClose '
+  resource_name: 'AutoClose'
 
 class Campaign extends Base
   resource_name: 'Campaign'

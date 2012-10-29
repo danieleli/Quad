@@ -32,5 +32,5 @@
         "name" : "Dan Schlossberg",
         "email": "dan@softwaresingularity.com"
     },
-    "license"        : "BSD"
+    "license"        : "MIT"
 }

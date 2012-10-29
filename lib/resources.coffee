@@ -1,9 +1,9 @@
 # base resource object - encapsulates networking client
-# and implements http calls.
+# and implements http calls..
 class Base
   constructor: (@pps_client) ->
   getAll     : (params, callback) ->
-    @pps_client.getResource @resource_name, callback
+    @pps_client.getResource @resource_name, params, callback
 
 
 

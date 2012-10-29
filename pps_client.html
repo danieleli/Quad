@@ -23,7 +23,11 @@ headers in the constructor overrides the problematic defaults</p></div></div><di
 
     <span class="nx">self</span><span class="p">.</span><span class="nx">rootUrl</span> <span class="o">=</span> <span class="nx">config</span><span class="p">.</span><span class="nx">rootUrl</span><span class="p">;</span>
 
-    <span class="nx">self</span><span class="p">.</span><span class="nx">getUrl</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span> <span class="nx">url</span><span class="p">,</span> <span class="cm">/**function ( error, data, response )*/</span> <span class="nx">callback</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="cm">/**</span>
+<span class="cm">     * @param url - target url</span>
+<span class="cm">     * @param callback - function ( error, data, response )</span>
+<span class="cm">     */</span>
+    <span class="nx">self</span><span class="p">.</span><span class="nx">getUrl</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">callback</span> <span class="p">)</span> <span class="p">{</span>
         <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
 
         <span class="k">if</span> <span class="p">(</span> <span class="nx">self</span><span class="p">.</span><span class="nx">_oauth_access_token</span> <span class="o">&amp;&amp;</span> <span class="nx">self</span><span class="p">.</span><span class="nx">_oauth_access_token_secret</span> <span class="p">)</span> <span class="p">{</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>we already have access token.</p></div></div><div class="code"><div class="wrapper">            <span class="nx">oauth</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">self</span><span class="p">.</span><span class="nx">_oauth_access_token</span><span class="p">,</span> <span class="nx">self</span><span class="p">.</span><span class="nx">_oauth_access_token_secret</span><span class="p">,</span> <span class="nx">callback</span> <span class="p">);</span>

@@ -20,8 +20,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 1,
-            "title": "tbd.js",
-            "slug": "tbdjs",
+            "title": "pps.js",
+            "slug": "ppsjs",
             "isFileHeader": true
           },
           "depth": 1,
@@ -61,7 +61,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             }
           ]
         },
-        "title": "tbd.js"
+        "title": "pps.js"
       },
       "depth": 1,
       "outline": [

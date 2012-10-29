@@ -2,9 +2,7 @@
     <span class="nx">resources</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span> <span class="s1">&#39;../lib/resources&#39;</span> <span class="p">);</span> <span class="c1">// resources contains all the data objects for api.</span>
 
 <span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
-
-    <span class="kd">var</span> <span class="nx">Pps</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span> <span class="nx">config</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="s1">&#39;use strict&#39;</span><span class="p">;</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>This is root api object.</p></div></div><div class="code"><div class="wrapper">    <span class="kd">var</span> <span class="nx">Pps</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span> <span class="nx">config</span> <span class="p">)</span> <span class="p">{</span>
         <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
         <span class="kd">var</span> <span class="nx">client</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">PpsClient</span><span class="p">(</span> <span class="nx">config</span> <span class="p">);</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>loop over resources and append to Pps object (self) for following effect:
   Pps.payments

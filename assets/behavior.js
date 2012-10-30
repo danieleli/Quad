@@ -108,10 +108,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "singleLineComment": ["//"],
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/danschlossberg/Quad/lib/pps.js",
-        "projectPath": "lib/pps.js",
-        "targetPath": "pps",
-        "title": "pps"
+        "sourcePath": "/Users/danschlossberg/Quad/lib/oauth_adapter.js",
+        "projectPath": "lib/oauth_adapter.js",
+        "targetPath": "oauth_adapter",
+        "title": "oauth_adapter"
       },
       "depth": 1,
       "outline": []
@@ -124,10 +124,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "singleLineComment": ["//"],
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/danschlossberg/Quad/lib/pps_client.js",
-        "projectPath": "lib/pps_client.js",
-        "targetPath": "pps_client",
-        "title": "pps_client"
+        "sourcePath": "/Users/danschlossberg/Quad/lib/pps_adapter.js",
+        "projectPath": "lib/pps_adapter.js",
+        "targetPath": "pps_adapter",
+        "title": "pps_adapter"
       },
       "depth": 1,
       "outline": []

@@ -1,5 +1,5 @@
 var assert = require( 'chai' ).assert,
-    PpsClient = require( '../../lib/pps_client' ),
+    PpsClient = require( '../../lib/oauth_adapter' ),
     Pci = require( '../../lib/resources' ).Pci,
     apiConfig = require( '../helpers/api_config' );
 

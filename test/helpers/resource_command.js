@@ -1,5 +1,5 @@
 var assert = require( 'assert' ),
-    PpsClient = require( '../../lib/pps_client' ),
+    PpsClient = require( '../../lib/oauth_adapter' ),
     apiConfig = require( './api_config' );
 
 var pps = new PpsClient( apiConfig );

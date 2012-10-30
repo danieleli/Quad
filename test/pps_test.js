@@ -1,6 +1,6 @@
 var vows = require( 'vows' ),
     assert = require( 'chai' ).assert,
-    Pps = require( '../lib/pps' ),
+    Pps = require( '../lib/pps_adapter' ),
     apiConfig = require( './helpers/api_config' );
 
 var  pps = new Pps( apiConfig );

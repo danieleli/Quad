@@ -1,4 +1,4 @@
-var Pps = require( '../lib/pps' );
+var Pps = require( '../lib/pps_adapter' );
 
 var config = {
     consumerKey       : "consumerKey",

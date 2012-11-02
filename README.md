@@ -11,7 +11,15 @@ docs and this wrapper feel free to file an "Issue".
 
 ## Installation
 
-    $ npm install pps
+    $ npm install pps  
+
+    or  
+
+    git clone git@github.com:danieleli/Quad.git  
+    cd Quad  
+    npm install  
+
+
 
 
 ## Example

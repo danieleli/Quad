@@ -1,7 +1,13 @@
 var vows = require( 'vows' ),
     assert = require( 'chai' ).assert,
     Pps = require( '../lib/pps_adapter' ),
-    apiConfig = require( './helpers/api_config' );
+    apiConfig = require( './helpers/api_config' ),
+    secrets = require( './secrets' );
+
+apiConfig.consumerKey = secrets.consumerKey;
+apiConfig.consumerSecret = secrets.consumerSecret;
+apiConfig.oauthToken = secrets.oauthToken;
+apiConfig.oauthTokenSecret = secrets.oauthTokenSecret;
 
 var  pps = new Pps( apiConfig );
 

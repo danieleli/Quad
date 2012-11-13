@@ -6,6 +6,8 @@ var vows = require( 'vows' ),
 
 apiConfig.consumerKey = secrets.consumerKey;
 apiConfig.consumerSecret = secrets.consumerSecret;
+apiConfig.oauthToken = secrets.oauthToken;
+apiConfig.oauthTokenSecret = secrets.oauthTokenSecret;
 
 var httpClient = new Pps( apiConfig );
 

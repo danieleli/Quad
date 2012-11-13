@@ -4,7 +4,8 @@ class Base
   constructor: (@pps_client) ->
   getAll     : (params, callback) ->
     @pps_client.getResource @resource_name, params, callback
-
+  getById     : (params, callback) ->
+    @pps_client.getResource @resource_name+'/'+params, null, callback
 
 
 # Api data objects

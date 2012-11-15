@@ -4,8 +4,10 @@ class Base
   constructor: (@pps_client) ->
   getAll     : (params, callback) ->
     @pps_client.getResource @resource_name, params, callback
-  getById     : (params, callback) ->
-    @pps_client.getResource @resource_name+'/'+params, null, callback
+  getById    : (id, callback) ->
+    @pps_client.getResource @resource_name + '/' + id, null, callback
+  post       : (obj, callback) ->
+    @pps_client.postResource @resource_name, obj, callback
 
 
 # Api data objects
@@ -62,6 +64,14 @@ class SAQ extends Base
 
 class Payment extends Base
   resource_name: 'Payment'
+
+  post         : (payment, callback) ->
+    merchId = payment.merchantId
+    @pps_client.postResource @resource_name + "?merchantId=" + merchId, JSON.stringify(payment), callback
+
+  put          : (payment, callback) ->
+    paymentId = payment.id
+    @pps_client.putResource @resource_name + "/" + paymentId, JSON.stringify(payment), callback
 
 
 module.exports = {

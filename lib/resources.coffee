@@ -5,10 +5,15 @@ class Base
   getAll     : (params, callback) ->
     @pps_client.getResource @resource_name, params, callback
   getById    : (id, callback) ->
-    @pps_client.getResource @resource_name + '/' + id, null, callback
+    @pps_client.getResourceById @resource_name, id, callback
+  get    : (id, params, callback) ->
+    @pps_client.getResourceById @resource_name + '/' + id, params, callback
   post       : (obj, callback) ->
     @pps_client.postResource @resource_name, obj, callback
-
+  put        : (obj, callback) ->
+    @pps_client.putResource @resource_name, obj, callback
+  delete        : (id, callback) ->
+    @pps_client.deleteResource @resource_name, id, callback
 
 # Api data objects
 class Pci extends Base
@@ -46,6 +51,9 @@ class Geocode extends Base
 
 class InvoiceImport extends Base
   resource_name: 'InvoiceImport'
+  getAll: (merchantId, callback) ->
+    merchId = merchantId
+    @pps_client.getUrl @resource_name + "?merchantId=" + merchId, callback
 
 class Notification extends Base
   resource_name: 'Notification'
@@ -64,14 +72,9 @@ class SAQ extends Base
 
 class Payment extends Base
   resource_name: 'Payment'
-
-  post         : (payment, callback) ->
+  post: (payment, callback) ->
     merchId = payment.merchantId
     @pps_client.postResource @resource_name + "?merchantId=" + merchId, JSON.stringify(payment), callback
-
-  put          : (payment, callback) ->
-    paymentId = payment.id
-    @pps_client.putResource @resource_name + "/" + paymentId, JSON.stringify(payment), callback
 
 
 module.exports = {

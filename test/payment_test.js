@@ -80,39 +80,53 @@ vows.describe( 'Payment' )
 
             }
         }} )
-//    .addBatch( { 'put': {
+    .addBatch( { 'put': {
+        topic                : function () {
+            var self = this;
+
+            pps.payment.post( samplePayment2, function ( error, data, response ){
+                var loc = response.headers.location
+                var id = loc.substr(loc.lastIndexOf("/")+1);
+                console.log(id);
+                pps.payment.getById(id, function( error, data, response ){
+                    var p = JSON.parse(data);
+                    p.paymentCard.accountNumber = samplePayment2.paymentCard.accountNumber;
+                    p.paymentCard.cvv = samplePayment2.paymentCard.cvv;
+                    p.totalAmount = 110;
+                    p.tipAmount = 5;
+                    delete p.paymentCheck;
+                    delete p.paymentCard;
+                    pps.payment.put( p, self.callback )
+                });
+
+            } );
+
+        },
+        'returns a paymentId': function ( error, data, response ) {
+            assert.isNull( error, JSON.stringify( error ) );
+            assert.isTrue( response.statusCode === 200, "response.status code" );
+
+        }
+    }} )
+//    .addBatch( { 'delete': {
 //        topic                : function () {
 //            var self = this;
 //
 //            pps.payment.post( samplePayment2, function ( error, data, response ){
+//                console.log( "error: " + error );
+//                assert.isNull( error, JSON.stringify( error ) );
+//                assert.isTrue( response.statusCode === 204, "response.status code" );
 //                var loc = response.headers.location
 //                var id = loc.substr(loc.lastIndexOf("/")+1);
 //                console.log(id);
-//                pps.payment.getById(id, function( error, data, response ){
-//                    var p = JSON.parse(data);
-//                    p.paymentCard.accountNumber = samplePayment2.paymentCard.accountNumber;
-//                    p.paymentCard.cvv = samplePayment2.paymentCard.cvv;
-//                    p.totalAmount = 155;
-//                    delete p.paymentCheck;
-//                    delete p.isSettled;
-//                    delete p.isReversed;
-//                    delete p.hasSignature;
-//                    delete p.authorizationCode;
-//                    console.log('payment to put: ' + JSON.stringify(p))
-//                    pps.payment.put( p, self.callback )
-//                });
-//
+//                pps.payment.delete( id, self.callback );
 //            } );
 //
 //        },
 //        'returns a paymentId': function ( error, data, response ) {
 //            console.log( "error: " + error );
 //            assert.isNull( error, JSON.stringify( error ) );
-//            assert.isTrue( response.statusCode === 201, "response.status code" );
-//
-//            var location = response.headers.location;
-//            console.log( "location header: " + location );
-//            assert.ok( location );
+//            assert.isTrue( response.statusCode === 204, "response.status code" );
 //
 //        }
 //    }} )

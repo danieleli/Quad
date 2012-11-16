@@ -108,28 +108,28 @@ vows.describe( 'Payment' )
 
         }
     }} )
-//    .addBatch( { 'delete': {
-//        topic                : function () {
-//            var self = this;
-//
-//            pps.payment.post( samplePayment2, function ( error, data, response ){
-//                console.log( "error: " + error );
-//                assert.isNull( error, JSON.stringify( error ) );
-//                assert.isTrue( response.statusCode === 204, "response.status code" );
-//                var loc = response.headers.location
-//                var id = loc.substr(loc.lastIndexOf("/")+1);
-//                console.log(id);
-//                pps.payment.delete( id, self.callback );
-//            } );
-//
-//        },
-//        'returns a paymentId': function ( error, data, response ) {
-//            console.log( "error: " + error );
-//            assert.isNull( error, JSON.stringify( error ) );
-//            assert.isTrue( response.statusCode === 204, "response.status code" );
-//
-//        }
-//    }} )
+    .addBatch( { 'delete': {
+        topic                : function () {
+            var self = this;
+
+            pps.payment.post( samplePayment2, function ( error, data, response ){
+                console.log( "error: " + error );
+                assert.isNull( error, JSON.stringify( error ) );
+                assert.isTrue( response.statusCode === 201, "response.status code" );
+                var loc = response.headers.location
+                var id = loc.substr(loc.lastIndexOf("/")+1);
+                console.log(id);
+                pps.payment.delete( id, self.callback );
+            } );
+
+        },
+        'returns a paymentId': function ( error, data, response ) {
+            console.log( "error: " + error );
+            assert.isNull( error, JSON.stringify( error ) );
+            assert.isTrue( response.statusCode === 204, "response.status code" );
+
+        }
+    }} )
     .export( module );
 
 
